@@ -1,0 +1,17 @@
+{
+  "demo_name": "google_search_Qwen2.5-3B-Instruct",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "search_query": "visiting japan",
+  "scenes": [],
+  "success": false,
+  "error": "Object of type Snapshot is not JSON serializable",
+  "token_summary": {
+    "demo_name": "google_search_Qwen2.5-3B-Instruct",
+    "total_prompt_tokens": 0,
+    "total_completion_tokens": 0,
+    "total_tokens": 0,
+    "interactions": [],
+    "num_interactions": 0,
+    "average_per_scene": 0
+  }
+}

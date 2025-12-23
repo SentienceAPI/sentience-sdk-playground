@@ -1,0 +1,39 @@
+{
+  "demo_name": "google_search_Qwen2.5-3B-Instruct",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "search_query": "visiting japan",
+  "scenes": [
+    {
+      "name": "Scene 1: Find search box",
+      "success": true,
+      "tokens": 39,
+      "element_id": 98,
+      "reasoning": "Element 98 is a combobox where users can type, meeting the criteria for a searchable input field."
+    },
+    {
+      "name": "Scene 2: Type search query",
+      "success": true,
+      "tokens": 0,
+      "note": "Keyboard input only"
+    }
+  ],
+  "success": false,
+  "error": "Failed to find search result - LLM could not identify a valid element",
+  "token_summary": {
+    "demo_name": "google_search_Qwen2.5-3B-Instruct",
+    "total_prompt_tokens": 261,
+    "total_completion_tokens": 39,
+    "total_tokens": 300,
+    "interactions": [
+      {
+        "scene": "Scene 1: Find search box",
+        "model": "Qwen/Qwen2.5-3B-Instruct",
+        "prompt_tokens": 261,
+        "completion_tokens": 39,
+        "total": 300
+      }
+    ],
+    "num_interactions": 1,
+    "average_per_scene": 300.0
+  }
+}

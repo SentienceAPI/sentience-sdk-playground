@@ -1,0 +1,55 @@
+{
+  "demo_name": "google_search_Qwen2.5-3B-Instruct",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "search_query": "visiting japan",
+  "scenes": [
+    {
+      "name": "Scene 1: Find search box",
+      "success": true,
+      "tokens": 41,
+      "element_id": 15,
+      "reasoning": "Element 15 is a link that says 'Search for Images', which is a searchbox where users can type"
+    },
+    {
+      "name": "Scene 2: Type search query",
+      "success": true,
+      "tokens": 0,
+      "note": "Keyboard input only"
+    },
+    {
+      "name": "Scene 3: Select search result",
+      "success": true,
+      "tokens": 39,
+      "element_id": 25,
+      "reasoning": "Element 25 is a search result link with descriptive text about a website and falls within the specified criteria.",
+      "final_url": "https://www.google.com/search?q=visiting+japan&sca_esv=93169a9b36e8388d&hl=en&source=hp&biw=1280&bih=800&ei=u9ZKaa6GJfm_0PEPyZLjyAg&iflsig=AOw8s4IAAAAAaUrky07IvjE0-OZLDUiiZrMRj6_y2Ozd&ved=0ahUKEwjuz8CYo9SRAxX5HzQIHUnJGIkQ4dUDCA0&uact=5&oq=visiting+japan&gs_lp=EgNpbWciDnZpc2l0aW5nIGphcGFuMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEj-DVAAWOUKcAB4AJABAJgBOqABqwWqAQIxNLgBA8gBAPgBAYoCC2d3cy13aXotaW1nmAIOoALZBcICDhAAGIAEGLEDGIMBGIoFwgILEAAYgAQYsQMYgwHCAgQQABgDwgIIEAAYgAQYsQOYAwCSBwIxNKAH60eyBwIxNLgH2QXCBwYxLjExLjLIByKACAA&sclient=img&udm=2"
+    }
+  ],
+  "success": true,
+  "duration_seconds": 54.93768811225891,
+  "final_url": "https://www.google.com/search?q=visiting+japan&sca_esv=93169a9b36e8388d&hl=en&source=hp&biw=1280&bih=800&ei=u9ZKaa6GJfm_0PEPyZLjyAg&iflsig=AOw8s4IAAAAAaUrky07IvjE0-OZLDUiiZrMRj6_y2Ozd&ved=0ahUKEwjuz8CYo9SRAxX5HzQIHUnJGIkQ4dUDCA0&uact=5&oq=visiting+japan&gs_lp=EgNpbWciDnZpc2l0aW5nIGphcGFuMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEj-DVAAWOUKcAB4AJABAJgBOqABqwWqAQIxNLgBA8gBAPgBAYoCC2d3cy13aXotaW1nmAIOoALZBcICDhAAGIAEGLEDGIMBGIoFwgILEAAYgAQYsQMYgwHCAgQQABgDwgIIEAAYgAQYsQOYAwCSBwIxNKAH60eyBwIxNLgH2QXCBwYxLjExLjLIByKACAA&sclient=img&udm=2",
+  "token_summary": {
+    "demo_name": "google_search_Qwen2.5-3B-Instruct",
+    "total_prompt_tokens": 2413,
+    "total_completion_tokens": 80,
+    "total_tokens": 2493,
+    "interactions": [
+      {
+        "scene": "Scene 1: Find search box",
+        "model": "Qwen/Qwen2.5-3B-Instruct",
+        "prompt_tokens": 1179,
+        "completion_tokens": 41,
+        "total": 1220
+      },
+      {
+        "scene": "Scene 3: Select search result",
+        "model": "Qwen/Qwen2.5-3B-Instruct",
+        "prompt_tokens": 1234,
+        "completion_tokens": 39,
+        "total": 1273
+      }
+    ],
+    "num_interactions": 2,
+    "average_per_scene": 1246.5
+  }
+}

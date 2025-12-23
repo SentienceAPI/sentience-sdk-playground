@@ -1,0 +1,17 @@
+{
+  "demo_name": "google_search_Qwen2.5-3B-Instruct",
+  "total_prompt_tokens": 261,
+  "total_completion_tokens": 39,
+  "total_tokens": 300,
+  "interactions": [
+    {
+      "scene": "Scene 1: Find search box",
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "prompt_tokens": 261,
+      "completion_tokens": 39,
+      "total": 300
+    }
+  ],
+  "num_interactions": 1,
+  "average_per_scene": 300.0
+}

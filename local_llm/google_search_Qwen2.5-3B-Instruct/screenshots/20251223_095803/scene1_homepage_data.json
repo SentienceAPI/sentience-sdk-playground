@@ -1,0 +1,1972 @@
+{
+  "status": "success",
+  "timestamp": null,
+  "url": "https://www.google.com/?zx=1766512688863&no_sw_cr=1",
+  "viewport": null,
+  "elements": [
+    {
+      "id": 0,
+      "role": "generic",
+      "text": "About Store GmailImages Sign in AI Mode Simplify the holidays with 4 new Google Maps features Advert",
+      "importance": 0,
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1280.0,
+        "height": 800.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1,
+      "role": "generic",
+      "text": "About Store GmailImages Sign in AI Mode Simplify the holidays with 4 new Google Maps features Advert",
+      "importance": 0,
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1280.0,
+        "height": 800.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 3,
+      "role": "generic",
+      "text": "About Store GmailImages Sign in AI Mode Simplify the holidays with 4 new Google Maps features Advert",
+      "importance": 0,
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1280.0,
+        "height": 800.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 5,
+      "role": "navigation",
+      "text": "About Store GmailImages Sign in",
+      "importance": 0,
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1280.0,
+        "height": 60.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 8,
+      "role": "generic",
+      "text": "GmailImages Sign in",
+      "importance": 0,
+      "bbox": {
+        "x": 126.0625,
+        "y": 4.5,
+        "width": 1147.9375,
+        "height": 51.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 9,
+      "role": "generic",
+      "text": "GmailImages Sign in",
+      "importance": 0,
+      "bbox": {
+        "x": 126.0625,
+        "y": 4.5,
+        "width": 1147.9375,
+        "height": 51.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 10,
+      "role": "none",
+      "text": "GmailImages Sign in",
+      "importance": 0,
+      "bbox": {
+        "x": 126.0625,
+        "y": 4.5,
+        "width": 1147.9375,
+        "height": 51.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 11,
+      "role": "generic",
+      "text": "GmailImages",
+      "importance": 0,
+      "bbox": {
+        "x": 1015.40625,
+        "y": 4.5,
+        "width": 117.59375,
+        "height": 51.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 16,
+      "role": "generic",
+      "text": "",
+      "importance": 0,
+      "bbox": {
+        "x": 1133.0,
+        "y": 4.5,
+        "width": 48.0,
+        "height": 51.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 17,
+      "role": "generic",
+      "text": "",
+      "importance": 0,
+      "bbox": {
+        "x": 1133.0,
+        "y": 4.5,
+        "width": 48.0,
+        "height": 48.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 22,
+      "role": "generic",
+      "text": "Sign in",
+      "importance": 0,
+      "bbox": {
+        "x": 1181.0,
+        "y": 4.5,
+        "width": 93.0,
+        "height": 48.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 18,
+      "role": "button",
+      "text": "Google apps",
+      "importance": 0,
+      "bbox": {
+        "x": 1137.0,
+        "y": 8.5,
+        "width": 40.0,
+        "height": 40.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 23,
+      "role": "link",
+      "text": "Sign in",
+      "importance": 0,
+      "bbox": {
+        "x": 1185.0,
+        "y": 8.5,
+        "width": 85.0,
+        "height": 40.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 12,
+      "role": "generic",
+      "text": "Gmail",
+      "importance": 0,
+      "bbox": {
+        "x": 1015.40625,
+        "y": 16.5,
+        "width": 48.953125,
+        "height": 24.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 13,
+      "role": "link",
+      "text": "Gmail ",
+      "importance": 0,
+      "bbox": {
+        "x": 1030.40625,
+        "y": 16.5,
+        "width": 33.953125,
+        "height": 24.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 14,
+      "role": "generic",
+      "text": "Images",
+      "importance": 0,
+      "bbox": {
+        "x": 1064.359375,
+        "y": 16.5,
+        "width": 57.640625,
+        "height": 24.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 15,
+      "role": "link",
+      "text": "Search for Images ",
+      "importance": 0,
+      "bbox": {
+        "x": 1079.359375,
+        "y": 16.5,
+        "width": 42.640625,
+        "height": 24.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 19,
+      "role": "generic",
+      "text": "",
+      "importance": 0,
+      "bbox": {
+        "x": 1145.0,
+        "y": 16.5,
+        "width": 24.0,
+        "height": 24.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 21,
+      "role": "generic",
+      "text": "",
+      "importance": 0,
+      "bbox": {
+        "x": 1145.0,
+        "y": 16.5,
+        "width": 24.0,
+        "height": 24.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 6,
+      "role": "link",
+      "text": "About",
+      "importance": 0,
+      "bbox": {
+        "x": 21.0,
+        "y": 17.0,
+        "width": 46.59375,
+        "height": 26.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 7,
+      "role": "link",
+      "text": "Store",
+      "importance": 0,
+      "bbox": {
+        "x": 77.59375,
+        "y": 17.0,
+        "width": 43.46875,
+        "height": 26.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 24,
+      "role": "generic",
+      "text": "Sign in",
+      "importance": 0,
+      "bbox": {
+        "x": 1206.09375,
+        "y": 19.5,
+        "width": 42.8125,
+        "height": 16.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 20,
+      "role": "generic",
+      "text": "",
+      "importance": 0,
+      "bbox": {
+        "x": 1149.0,
+        "y": 20.5,
+        "width": 16.0,
+        "height": 16.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 27,
+      "role": "generic",
+      "text": "",
+      "importance": 0,
+      "bbox": {
+        "x": 0.0,
+        "y": 60.0,
+        "width": 1280.0,
+        "height": 240.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 28,
+      "role": "generic",
+      "text": "",
+      "importance": 0,
+      "bbox": {
+        "x": 390.0,
+        "y": 70.0,
+        "width": 500.0,
+        "height": 230.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 29,
+      "role": "generic",
+      "text": "",
+      "importance": 0,
+      "bbox": {
+        "x": 390.0,
+        "y": 70.0,
+        "width": 500.0,
+        "height": 30.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 31,
+      "role": "image",
+      "text": "Seasonal Holidays 2025",
+      "importance": 0,
+      "bbox": {
+        "x": 390.0,
+        "y": 100.0,
+        "width": 500.0,
+        "height": 200.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 30,
+      "role": "generic",
+      "text": "",
+      "importance": 0,
+      "bbox": {
+        "x": 390.0,
+        "y": 284.0,
+        "width": 500.0,
+        "height": 16.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 32,
+      "role": "generic",
+      "text": "AI Mode",
+      "importance": 0,
+      "bbox": {
+        "x": 0.0,
+        "y": 300.0,
+        "width": 1280.0,
+        "height": 186.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 114,
+      "role": "generic",
+      "text": "",
+      "importance": 0,
+      "bbox": {
+        "x": 827.7890625,
+        "y": 316.0,
+        "width": 196.28125,
+        "height": 72.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": true,
+      "z_index": 0
+    },
+    {
+      "id": 116,
+      "role": "generic",
+      "text": "",
+      "importance": 0,
+      "bbox": {
+        "x": 827.7890625,
+        "y": 316.0,
+        "width": 196.28125,
+        "height": 72.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": true,
+      "z_index": 0
+    },
+    {
+      "id": 57,
+      "role": "search",
+      "text": "AI Mode",
+      "importance": 0,
+      "bbox": {
+        "x": 20.0,
+        "y": 320.0,
+        "width": 1240.0,
+        "height": 146.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 58,
+      "role": "generic",
+      "text": "AI Mode",
+      "importance": 0,
+      "bbox": {
+        "x": 20.0,
+        "y": 320.0,
+        "width": 1240.0,
+        "height": 146.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 59,
+      "role": "generic",
+      "text": "AI Mode",
+      "importance": 0,
+      "bbox": {
+        "x": 296.0,
+        "y": 320.0,
+        "width": 688.0,
+        "height": 146.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 60,
+      "role": "generic",
+      "text": "AI Mode",
+      "importance": 0,
+      "bbox": {
+        "x": 296.0,
+        "y": 326.0,
+        "width": 688.0,
+        "height": 52.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 3
+    },
+    {
+      "id": 61,
+      "role": "generic",
+      "text": "AI Mode",
+      "importance": 0,
+      "bbox": {
+        "x": 297.0,
+        "y": 327.0,
+        "width": 686.0,
+        "height": 50.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 62,
+      "role": "generic",
+      "text": "",
+      "importance": 0,
+      "bbox": {
+        "x": 297.0,
+        "y": 327.0,
+        "width": 50.0,
+        "height": 50.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 96,
+      "role": "generic",
+      "text": "",
+      "importance": 0,
+      "bbox": {
+        "x": 347.0,
+        "y": 327.0,
+        "width": 441.859375,
+        "height": 50.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 98,
+      "role": "combobox",
+      "text": "Search",
+      "importance": 0,
+      "bbox": {
+        "x": 347.0,
+        "y": 327.0,
+        "width": 441.859375,
+        "height": 50.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 99,
+      "role": "generic",
+      "text": "AI Mode",
+      "importance": 0,
+      "bbox": {
+        "x": 788.859375,
+        "y": 327.0,
+        "width": 186.140625,
+        "height": 50.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 63,
+      "role": "button",
+      "text": "Upload files or images",
+      "importance": 0,
+      "bbox": {
+        "x": 304.0,
+        "y": 334.0,
+        "width": 36.0,
+        "height": 36.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 112,
+      "role": "link",
+      "text": "AI Mode",
+      "importance": 0,
+      "bbox": {
+        "x": 876.859375,
+        "y": 334.0,
+        "width": 98.140625,
+        "height": 36.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 113,
+      "role": "generic",
+      "text": "",
+      "importance": 0,
+      "bbox": {
+        "x": 876.859375,
+        "y": 334.0,
+        "width": 98.140625,
+        "height": 36.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": true,
+      "z_index": 0
+    },
+    {
+      "id": 115,
+      "role": "generic",
+      "text": "",
+      "importance": 0,
+      "bbox": {
+        "x": 876.859375,
+        "y": 334.0,
+        "width": 98.140625,
+        "height": 36.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": true,
+      "z_index": 0
+    },
+    {
+      "id": 117,
+      "role": "generic",
+      "text": "",
+      "importance": 0,
+      "bbox": {
+        "x": 878.859375,
+        "y": 336.0,
+        "width": 94.140625,
+        "height": 32.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": true,
+      "z_index": 0
+    },
+    {
+      "id": 64,
+      "role": "generic",
+      "text": "",
+      "importance": 0,
+      "bbox": {
+        "x": 310.0,
+        "y": 340.0,
+        "width": 24.0,
+        "height": 24.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 65,
+      "role": "generic",
+      "text": "",
+      "importance": 0,
+      "bbox": {
+        "x": 310.0,
+        "y": 340.0,
+        "width": 24.0,
+        "height": 24.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 105,
+      "role": "generic",
+      "text": "",
+      "importance": 0,
+      "bbox": {
+        "x": 788.859375,
+        "y": 340.0,
+        "width": 80.0,
+        "height": 24.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 106,
+      "role": "button",
+      "text": "Search by voice",
+      "importance": 0,
+      "bbox": {
+        "x": 788.859375,
+        "y": 340.0,
+        "width": 40.0,
+        "height": 24.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 107,
+      "role": "generic",
+      "text": "",
+      "importance": 0,
+      "bbox": {
+        "x": 796.859375,
+        "y": 340.0,
+        "width": 24.0,
+        "height": 24.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 109,
+      "role": "button",
+      "text": "Search by image",
+      "importance": 0,
+      "bbox": {
+        "x": 828.859375,
+        "y": 340.0,
+        "width": 40.0,
+        "height": 24.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 110,
+      "role": "generic",
+      "text": "",
+      "importance": 0,
+      "bbox": {
+        "x": 836.859375,
+        "y": 340.0,
+        "width": 24.0,
+        "height": 24.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 108,
+      "role": "generic",
+      "text": "",
+      "importance": 0,
+      "bbox": {
+        "x": 801.859375,
+        "y": 342.0,
+        "width": 14.0,
+        "height": 19.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 118,
+      "role": "generic",
+      "text": "AI Mode",
+      "importance": 0,
+      "bbox": {
+        "x": 886.859375,
+        "y": 342.0,
+        "width": 76.140625,
+        "height": 20.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 1
+    },
+    {
+      "id": 119,
+      "role": "generic",
+      "text": "",
+      "importance": 0,
+      "bbox": {
+        "x": 886.859375,
+        "y": 342.0,
+        "width": 24.0,
+        "height": 20.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 120,
+      "role": "generic",
+      "text": "",
+      "importance": 0,
+      "bbox": {
+        "x": 886.859375,
+        "y": 342.0,
+        "width": 20.0,
+        "height": 20.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 121,
+      "role": "generic",
+      "text": "",
+      "importance": 0,
+      "bbox": {
+        "x": 886.859375,
+        "y": 342.0,
+        "width": 20.0,
+        "height": 20.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 122,
+      "role": "generic",
+      "text": "",
+      "importance": 0,
+      "bbox": {
+        "x": 886.859375,
+        "y": 342.0,
+        "width": 20.0,
+        "height": 20.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 127,
+      "role": "generic",
+      "text": "AI Mode",
+      "importance": 0,
+      "bbox": {
+        "x": 910.859375,
+        "y": 342.0,
+        "width": 52.140625,
+        "height": 20.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 123,
+      "role": "generic",
+      "text": "",
+      "importance": 0,
+      "bbox": {
+        "x": 889.359375,
+        "y": 342.8333435058594,
+        "width": 16.66668701171875,
+        "height": 16.666656494140625
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 124,
+      "role": "generic",
+      "text": "",
+      "importance": 0,
+      "bbox": {
+        "x": 889.359375,
+        "y": 342.8333435058594,
+        "width": 16.66668701171875,
+        "height": 16.666656494140625
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 125,
+      "role": "generic",
+      "text": "",
+      "importance": 0,
+      "bbox": {
+        "x": 896.859375,
+        "y": 342.8333435058594,
+        "width": 9.16668701171875,
+        "height": 9.166656494140625
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 111,
+      "role": "generic",
+      "text": "",
+      "importance": 0,
+      "bbox": {
+        "x": 839.859375,
+        "y": 343.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 126,
+      "role": "generic",
+      "text": "",
+      "importance": 0,
+      "bbox": {
+        "x": 889.359375,
+        "y": 344.5,
+        "width": 15.0,
+        "height": 15.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 66,
+      "role": "generic",
+      "text": "",
+      "importance": 0,
+      "bbox": {
+        "x": 314.7967529296875,
+        "y": 344.7967529296875,
+        "width": 14.406494140625,
+        "height": 14.406494140625
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 243,
+      "role": "generic",
+      "text": "",
+      "importance": 0,
+      "bbox": {
+        "x": 296.0,
+        "y": 378.0,
+        "width": 688.0,
+        "height": 88.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 244,
+      "role": "generic",
+      "text": "",
+      "importance": 0,
+      "bbox": {
+        "x": 296.0,
+        "y": 396.0,
+        "width": 688.0,
+        "height": 58.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 245,
+      "role": "button",
+      "text": "Google Search",
+      "importance": 0,
+      "bbox": {
+        "x": 499.09375,
+        "y": 407.0,
+        "width": 127.40625,
+        "height": 36.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 246,
+      "role": "button",
+      "text": "I'm Feeling Lucky",
+      "importance": 0,
+      "bbox": {
+        "x": 638.390625,
+        "y": 407.0,
+        "width": 142.5,
+        "height": 36.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 280,
+      "role": "generic",
+      "text": "Simplify the holidays with 4 new Google Maps features",
+      "importance": 0,
+      "bbox": {
+        "x": 0.0,
+        "y": 486.0,
+        "width": 1280.0,
+        "height": 267.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 281,
+      "role": "generic",
+      "text": "Simplify the holidays with 4 new Google Maps features",
+      "importance": 0,
+      "bbox": {
+        "x": 0.0,
+        "y": 486.0,
+        "width": 1280.0,
+        "height": 15.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 282,
+      "role": "generic",
+      "text": "Simplify the holidays with 4 new Google Maps features",
+      "importance": 0,
+      "bbox": {
+        "x": 0.0,
+        "y": 486.0,
+        "width": 1280.0,
+        "height": 15.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 283,
+      "role": "generic",
+      "text": "Simplify the holidays with 4 new Google Maps features",
+      "importance": 0,
+      "bbox": {
+        "x": 0.0,
+        "y": 486.0,
+        "width": 1280.0,
+        "height": 15.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 284,
+      "role": "generic",
+      "text": "Simplify the holidays with 4 new Google Maps features",
+      "importance": 0,
+      "bbox": {
+        "x": 0.0,
+        "y": 486.0,
+        "width": 1280.0,
+        "height": 15.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 289,
+      "role": "generic",
+      "text": "Simplify the holidays with 4 new Google Maps features",
+      "importance": 0,
+      "bbox": {
+        "x": 0.0,
+        "y": 486.0,
+        "width": 1280.0,
+        "height": 15.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 290,
+      "role": "generic",
+      "text": "Simplify the holidays with 4 new Google Maps features",
+      "importance": 0,
+      "bbox": {
+        "x": 0.0,
+        "y": 486.0,
+        "width": 1280.0,
+        "height": 15.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 291,
+      "role": "generic",
+      "text": "Simplify the holidays with 4 new Google Maps features",
+      "importance": 0,
+      "bbox": {
+        "x": 0.0,
+        "y": 486.0,
+        "width": 1280.0,
+        "height": 15.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 292,
+      "role": "generic",
+      "text": "Simplify the holidays with 4 new Google Maps features",
+      "importance": 0,
+      "bbox": {
+        "x": 0.0,
+        "y": 486.0,
+        "width": 1280.0,
+        "height": 15.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 293,
+      "role": "link",
+      "text": "Simplify the holidays with 4 new Google Maps features",
+      "importance": 0,
+      "bbox": {
+        "x": 482.46875,
+        "y": 486.0,
+        "width": 315.046875,
+        "height": 15.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 298,
+      "role": "generic",
+      "text": "Advertising Business How Search works Applying AI towards science and the environment Privacy Terms ",
+      "importance": 0,
+      "bbox": {
+        "x": 0.0,
+        "y": 753.0,
+        "width": 1280.0,
+        "height": 47.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 299,
+      "role": "contentinfo",
+      "text": "Advertising Business How Search works Applying AI towards science and the environment Privacy Terms ",
+      "importance": 0,
+      "bbox": {
+        "x": 0.0,
+        "y": 753.0,
+        "width": 1280.0,
+        "height": 47.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 300,
+      "role": "generic",
+      "text": "Advertising Business How Search works Applying AI towards science and the environment Privacy Terms ",
+      "importance": 0,
+      "bbox": {
+        "x": 0.0,
+        "y": 753.0,
+        "width": 1280.0,
+        "height": 47.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 301,
+      "role": "generic",
+      "text": "Advertising Business How Search works",
+      "importance": 0,
+      "bbox": {
+        "x": 20.0,
+        "y": 753.0,
+        "width": 372.0,
+        "height": 47.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 302,
+      "role": "link",
+      "text": "Advertising",
+      "importance": 0,
+      "bbox": {
+        "x": 20.0,
+        "y": 753.0,
+        "width": 99.265625,
+        "height": 47.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 303,
+      "role": "link",
+      "text": "Business",
+      "importance": 0,
+      "bbox": {
+        "x": 119.265625,
+        "y": 753.0,
+        "width": 86.8125,
+        "height": 47.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 304,
+      "role": "link",
+      "text": "How Search works",
+      "importance": 0,
+      "bbox": {
+        "x": 206.078125,
+        "y": 753.0,
+        "width": 146.703125,
+        "height": 47.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 305,
+      "role": "generic",
+      "text": "Applying AI towards science and the environment",
+      "importance": 0,
+      "bbox": {
+        "x": 462.9375,
+        "y": 753.0,
+        "width": 354.109375,
+        "height": 47.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 306,
+      "role": "link",
+      "text": "Applying AI towards science and the environment",
+      "importance": 0,
+      "bbox": {
+        "x": 462.9375,
+        "y": 753.0,
+        "width": 354.109375,
+        "height": 47.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 309,
+      "role": "generic",
+      "text": "Privacy Terms Settings",
+      "importance": 0,
+      "bbox": {
+        "x": 887.984375,
+        "y": 753.0,
+        "width": 372.0,
+        "height": 47.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 310,
+      "role": "link",
+      "text": "Privacy",
+      "importance": 0,
+      "bbox": {
+        "x": 1035.359375,
+        "y": 753.0,
+        "width": 75.90625,
+        "height": 47.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 311,
+      "role": "link",
+      "text": "Terms",
+      "importance": 0,
+      "bbox": {
+        "x": 1111.265625,
+        "y": 753.0,
+        "width": 68.125,
+        "height": 47.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 312,
+      "role": "generic",
+      "text": "Settings",
+      "importance": 0,
+      "bbox": {
+        "x": 1179.390625,
+        "y": 753.0,
+        "width": 80.59375,
+        "height": 47.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 315,
+      "role": "button",
+      "text": "Settings",
+      "importance": 0,
+      "bbox": {
+        "x": 1179.390625,
+        "y": 753.0,
+        "width": 80.59375,
+        "height": 46.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 316,
+      "role": "generic",
+      "text": "Settings",
+      "importance": 0,
+      "bbox": {
+        "x": 1179.390625,
+        "y": 753.0,
+        "width": 80.59375,
+        "height": 46.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 307,
+      "role": "image",
+      "text": "",
+      "importance": 0,
+      "bbox": {
+        "x": 477.9375,
+        "y": 768.0,
+        "width": 12.25,
+        "height": 14.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 308,
+      "role": "generic",
+      "text": "Applying AI towards science and the environment",
+      "importance": 0,
+      "bbox": {
+        "x": 496.1875,
+        "y": 768.0,
+        "width": 305.859375,
+        "height": 16.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 313,
+      "role": "generic",
+      "text": "Settings",
+      "importance": 0,
+      "bbox": {
+        "x": 1179.390625,
+        "y": 768.0,
+        "width": 80.59375,
+        "height": 16.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 314,
+      "role": "generic",
+      "text": "Settings",
+      "importance": 0,
+      "bbox": {
+        "x": 1179.390625,
+        "y": 768.0,
+        "width": 80.59375,
+        "height": 16.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": null,
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    }
+  ],
+  "screenshot": null,
+  "screenshot_format": null,
+  "error": null,
+  "requires_license": null
+}

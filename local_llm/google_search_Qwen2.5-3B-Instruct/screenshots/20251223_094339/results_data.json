@@ -1,0 +1,39 @@
+{
+  "demo_name": "google_search_Qwen2.5-3B-Instruct",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "search_query": "visiting japan",
+  "scenes": [
+    {
+      "name": "Scene 1: Find search box",
+      "success": true,
+      "tokens": 76,
+      "element_id": 10,
+      "reasoning": "Element with id 10 has the role 'text' and is located at (126,4,1147x51). It is the closest match to a search box based on its position and role, and it has the highest score among elements matching the criteria."
+    },
+    {
+      "name": "Scene 2: Type search query",
+      "success": true,
+      "tokens": 0,
+      "note": "Keyboard input only"
+    }
+  ],
+  "success": false,
+  "error": "Failed to find search result",
+  "token_summary": {
+    "demo_name": "google_search_Qwen2.5-3B-Instruct",
+    "total_prompt_tokens": 1087,
+    "total_completion_tokens": 76,
+    "total_tokens": 1163,
+    "interactions": [
+      {
+        "scene": "Scene 1: Find search box",
+        "model": "Qwen/Qwen2.5-3B-Instruct",
+        "prompt_tokens": 1087,
+        "completion_tokens": 76,
+        "total": 1163
+      }
+    ],
+    "num_interactions": 1,
+    "average_per_scene": 1163.0
+  }
+}

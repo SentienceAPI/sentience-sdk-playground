@@ -1,0 +1,55 @@
+{
+  "demo_name": "google_search_Qwen2.5-3B-Instruct",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "search_query": "visiting japan",
+  "scenes": [
+    {
+      "name": "Scene 1: Find search box",
+      "success": true,
+      "tokens": 39,
+      "element_id": 98,
+      "reasoning": "Element 98 is a combobox where users can type, meeting the criteria for a searchable input field."
+    },
+    {
+      "name": "Scene 2: Type search query",
+      "success": true,
+      "tokens": 0,
+      "note": "Keyboard input only"
+    },
+    {
+      "name": "Scene 3: Select search result",
+      "success": true,
+      "tokens": 35,
+      "element_id": 2099,
+      "reasoning": "Element 2099 is a search result link about Japan tourism guide",
+      "final_url": "https://www.japan.travel/en/us/#:~:text=Popular%20Places,Culture%20in%20Japan"
+    }
+  ],
+  "success": true,
+  "duration_seconds": 39.576728105545044,
+  "final_url": "https://www.japan.travel/en/us/#:~:text=Popular%20Places,Culture%20in%20Japan",
+  "token_summary": {
+    "demo_name": "google_search_Qwen2.5-3B-Instruct",
+    "total_prompt_tokens": 1260,
+    "total_completion_tokens": 74,
+    "total_tokens": 1334,
+    "interactions": [
+      {
+        "scene": "Scene 1: Find search box",
+        "model": "Qwen/Qwen2.5-3B-Instruct",
+        "prompt_tokens": 261,
+        "completion_tokens": 39,
+        "total": 300
+      },
+      {
+        "scene": "Scene 3: Select search result",
+        "model": "Qwen/Qwen2.5-3B-Instruct",
+        "prompt_tokens": 999,
+        "completion_tokens": 35,
+        "total": 1034
+      }
+    ],
+    "num_interactions": 2,
+    "average_per_scene": 667.0
+  }
+}

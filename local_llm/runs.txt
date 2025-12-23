@@ -1,0 +1,331 @@
+                         GOOGLE SEARCH DEMO
+================================================================================
+Demo: google_search_Qwen2.5-3B-Instruct
+Search query: 'visiting japan'
+================================================================================
+
+Initializing LLM...
+
+======================================================================
+Loading Local LLM: Qwen/Qwen2.5-3B-Instruct
+======================================================================
+📥 Loading tokenizer...
+📥 Loading model...
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████| 2/2 [00:09<00:00,  4.85s/it]
+✅ Model loaded successfully!
+   Device: mps:0
+   Dtype: torch.float16
+   Context window: 32768 tokens
+======================================================================
+
+📁 Created output directory: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/local_llm/google_search_Qwen2.5-3B-Instruct/screenshots/20251223_095127
+
+======================================================================
+Initialized WebAgent
+  LLM: Local LLM: Qwen/Qwen2.5-3B-Instruct (context: 32768 tokens)
+  Max elements: 30
+======================================================================
+
+
+======================================================================
+SCENE 1: Find Google search box
+======================================================================
+📸 Screenshot saved: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/local_llm/google_search_Qwen2.5-3B-Instruct/screenshots/20251223_095127/scene1_homepage.png
+💾 Saved data: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/local_llm/google_search_Qwen2.5-3B-Instruct/screenshots/20251223_095127/scene1_homepage_data.json
+
+======================================================================
+Task: find_input
+Context: Google search box
+======================================================================
+
+📊 Using all elements from snapshot
+   Total elements: 98
+
+📋 Elements being sent to LLM (30 elements):
+====================================================================================================
+ 1. [ID:  0] generic         | 'About Store GmailImages Sign in AI Mode Simplify t' | (0,0,1280x800) | score=0.00
+ 2. [ID:  1] generic         | 'About Store GmailImages Sign in AI Mode Simplify t' | (0,0,1280x800) | score=0.00
+ 3. [ID:  3] generic         | 'About Store GmailImages Sign in AI Mode Simplify t' | (0,0,1280x800) | score=0.00
+ 4. [ID:  5] navigation      | 'About Store GmailImages Sign in' | (0,0,1280x60) | score=0.00
+ 5. [ID:  8] generic         | 'GmailImages Sign in' | (126,4,1147x51) | score=0.00
+ 6. [ID:  9] generic         | 'GmailImages Sign in' | (126,4,1147x51) | score=0.00
+ 7. [ID: 10] none            | 'GmailImages Sign in' | (126,4,1147x51) | score=0.00
+ 8. [ID: 11] generic         | 'GmailImages' | (1015,4,117x51) | score=0.00
+ 9. [ID: 16] generic         | '(no text)' | (1133,4,48x51) | score=0.00
+10. [ID: 17] generic         | '(no text)' | (1133,4,48x48) | score=0.00
+11. [ID: 22] generic         | 'Sign in' | (1181,4,93x48) | score=0.00
+12. [ID: 18] button          | 'Google apps' | (1137,8,40x40) | score=0.00
+13. [ID: 23] link            | 'Sign in' | (1185,8,85x40) | score=0.00
+14. [ID: 12] generic         | 'Gmail' | (1015,16,48x24) | score=0.00
+15. [ID: 13] link            | 'Gmail ' | (1030,16,33x24) | score=0.00
+16. [ID: 14] generic         | 'Images' | (1064,16,57x24) | score=0.00
+17. [ID: 15] link            | 'Search for Images ' | (1079,16,42x24) | score=0.00
+18. [ID: 19] generic         | '(no text)' | (1145,16,24x24) | score=0.00
+19. [ID: 21] generic         | '(no text)' | (1145,16,24x24) | score=0.00
+20. [ID:  6] link            | 'About' | (21,17,47x26) | score=0.00
+21. [ID:  7] link            | 'Store' | (78,17,42x26) | score=0.00
+22. [ID: 24] generic         | 'Sign in' | (1206,19,41x16) | score=0.00
+23. [ID: 20] generic         | '(no text)' | (1149,20,16x16) | score=0.00
+24. [ID: 27] generic         | '(no text)' | (0,60,1280x240) | score=0.00
+25. [ID: 28] generic         | '(no text)' | (390,70,500x230) | score=0.00
+26. [ID: 29] generic         | '(no text)' | (390,70,500x30) | score=0.00
+27. [ID: 31] image           | 'Seasonal Holidays 2025' | (390,100,500x200) | score=0.00
+28. [ID: 30] generic         | '(no text)' | (390,284,500x16) | score=0.00
+29. [ID: 32] generic         | 'AI Mode' | (0,300,1280x186) | score=0.00
+30. [ID:114] generic         | '(no text)' | (824,316,200x72) | score=0.00
+====================================================================================================
+
+🤖 Querying LLM...
+   Model: Qwen/Qwen2.5-3B-Instruct
+   Elements sent: 30
+
+💬 SYSTEM PROMPT:
+   Web automation agent. Output JSON only.
+
+💬 USER PROMPT:
+----------------------------------------------------------------------------------------------------
+Task: Find the Google search box where users can TYPE text.
+
+Elements (format: [id] role 'text' bbox score):
+[0] generic         'About Store GmailImages Sign in AI Mode Simplify t' (0,0,1280x800) score=0.00
+[1] generic         'About Store GmailImages Sign in AI Mode Simplify t' (0,0,1280x800) score=0.00
+[3] generic         'About Store GmailImages Sign in AI Mode Simplify t' (0,0,1280x800) score=0.00
+[5] navigation      'About Store GmailImages Sign in'                    (0,0,1280x60) score=0.00
+[8] generic         'GmailImages Sign in'                                (126,4,1147x51) score=0.00
+[9] generic         'GmailImages Sign in'                                (126,4,1147x51) score=0.00
+[10] none            'GmailImages Sign in'                                (126,4,1147x51) score=0.00
+[11] generic         'GmailImages'                                        (1015,4,117x51) score=0.00
+[16] generic         ''                                                   (1133,4,48x51) score=0.00
+[17] generic         ''                                                   (1133,4,48x48) score=0.00
+[22] generic         'Sign in'                                            (1181,4,93x48) score=0.00
+[18] button          'Google apps'                                        (1137,8,40x40) score=0.00
+[23] link            'Sign in'                                            (1185,8,85x40) score=0.00
+[12] generic         'Gmail'                                              (1015,16,48x24) score=0.00
+[13] link            'Gmail'                                              (1030,16,33x24) score=0.00
+[14] generic         'Images'                                             (1064,16,57x24) score=0.00
+[15] link            'Search for Images'                                  (1079,16,42x24) score=0.00
+[19] generic         ''                                                   (1145,16,24x24) score=0.00
+[21] generic         ''                                                   (1145,16,24x24) score=0.00
+[6] link            'About'                                              (21,17,47x26) score=0.00
+[7] link            'Store'                                              (78,17,42x26) score=0.00
+[24] generic         'Sign in'                                            (1206,19,41x16) score=0.00
+[20] generic         ''                                                   (1149,20,16x16) score=0.00
+[27] generic         ''                                                   (0,60,1280x240) score=0.00
+[28] generic         ''                                                   (390,70,500x230) score=0.00
+[29] generic         ''                                                   (390,70,500x30) score=0.00
+[31] image           'Seasonal Holidays 2025'                             (390,100,500x200) score=0.00
+[30] generic         ''                                                   (390,284,500x16) score=0.00
+[32] generic         'AI Mode'                                            (0,300,1280x186) score=0.00
+[114] generic         ''                                                   (824,316,200x72) score=0.00
+
+IMPORTANT RULES:
+1. ONLY select elements with role="textbox" OR role="searchbox" OR role="combobox"
+2. DO NOT select links (role="link") - we need an INPUT FIELD, not a link
+3. The element MUST allow typing text (it's an input box)
+4. Must have clickable=true
+5. Prefer highest score
+
+Example: If you see [5] searchbox 'Search', select id 5 (the searchbox, not a link)
+
+Output ONLY this JSON format (id must be a number):
+{
+  "id": 5,
+  "reasoning": "Element 5 is a searchbox where users can type"
+}
+
+Your response:
+----------------------------------------------------------------------------------------------------
+   Tokens used: 41 (prompt: 1179, completion: 41)
+
+📝 LLM Response:
+   {
+  "id": 15,
+  "reasoning": "Element 15 is a link that says 'Search for Images', which is a searchbox where users can type"
+}...
+✅ Successfully parsed response: ID=15
+   Reasoning: Element 15 is a link that says 'Search for Images', which is a searchbox where users can type
+
+✅ Selected Element:
+   ID: 15
+   Role: link
+   Text: Search for Images 
+   BBox: {'x': 1079.359375, 'y': 16.5, 'width': 42.640625, 'height': 24.0}
+   Reasoning: Element 15 is a link that says 'Search for Images', which is a searchbox where users can type
+📊 Scene 1: Find search box: 1220 tokens (prompt: 1179, completion: 41)
+
+======================================================================
+SCENE 2: Type search query 'visiting japan'
+======================================================================
+📸 Screenshot saved: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/local_llm/google_search_Qwen2.5-3B-Instruct/screenshots/20251223_095127/scene2_search_results.png
+
+======================================================================
+SCENE 3: Select first non-ad search result
+======================================================================
+💾 Saved data: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/local_llm/google_search_Qwen2.5-3B-Instruct/screenshots/20251223_095127/scene3_search_results_data.json
+
+======================================================================
+Task: find_link
+Context: Select first organic (non-ad) search result
+======================================================================
+
+📊 Using all elements from snapshot
+   Total elements: 2481
+
+📋 Elements being sent to LLM (30 elements):
+====================================================================================================
+ 1. [ID:  0] generic         | 'Accessibility Links Skip to main content Turn off ' | (0,0,1280x6255) | score=0.00
+ 2. [ID:  1] generic         | 'Accessibility Links Skip to main content Turn off ' | (0,0,1280x6255) | score=0.00
+ 3. [ID: 20] generic         | '(no text)' | (0,0,1280x16) | score=0.00
+ 4. [ID: 21] generic         | 'Sign in' | (0,16,1280x72) | score=0.00
+ 5. [ID: 22] generic         | 'Sign in' | (0,16,1280x72) | score=0.00
+ 6. [ID: 23] generic         | 'Sign in' | (0,16,1280x72) | score=0.00
+ 7. [ID: 24] generic         | 'Sign in' | (106,26,1174x52) | score=0.00
+ 8. [ID: 25] search          | '(no text)' | (106,26,861x52) | score=0.00
+ 9. [ID: 26] generic         | '(no text)' | (106,26,861x52) | score=0.00
+10. [ID: 27] generic         | '(no text)' | (242,26,725x52) | score=0.00
+11. [ID: 31] generic         | '(no text)' | (242,26,725x52) | score=0.00
+12. [ID:257] generic         | 'Sign in' | (1049,26,231x52) | score=0.00
+13. [ID: 34] generic         | '(no text)' | (243,27,679x50) | score=0.00
+14. [ID: 35] generic         | '(no text)' | (243,27,20x50) | score=0.00
+15. [ID: 40] generic         | '(no text)' | (263,27,522x50) | score=0.00
+16. [ID: 50] combobox        | 'Search' | (263,27,522x50) | score=0.00
+17. [ID: 51] generic         | '(no text)' | (785,27,133x50) | score=0.00
+18. [ID: 52] generic         | '(no text)' | (785,27,53x50) | score=0.00
+19. [ID: 53] button          | ' Clear' | (785,27,48x50) | score=0.00
+20. [ID: 54] generic         | '(no text)' | (797,27,24x50) | score=0.00
+21. [ID: 55] generic         | '(no text)' | (797,27,24x50) | score=0.00
+22. [ID: 65] button          | 'Search' | (922,27,44x50) | score=0.00
+23. [ID:258] generic         | '(no text)' | (1085,28,40x50) | score=0.00
+24. [ID:267] generic         | 'Sign in' | (1111,28,169x50) | score=0.00
+25. [ID:270] generic         | '(no text)' | (1127,28,48x48) | score=0.00
+26. [ID:275] generic         | 'Sign in' | (1175,28,89x48) | score=0.00
+27. [ID: 28] generic         | '(no text)' | (82,30,160x40) | score=0.00
+28. [ID:259] button          | 'Settings' | (1085,32,40x40) | score=0.00
+29. [ID:271] button          | 'Google apps' | (1131,32,40x40) | score=0.00
+30. [ID:276] link            | 'Sign in' | (1175,32,85x40) | score=0.00
+====================================================================================================
+
+🤖 Querying LLM...
+   Model: Qwen/Qwen2.5-3B-Instruct
+   Elements sent: 30
+
+💬 SYSTEM PROMPT:
+   Web automation agent. Output JSON only.
+
+💬 USER PROMPT:
+----------------------------------------------------------------------------------------------------
+Task: Select first organic (non-ad) search result
+
+This is a Google search results page. Find the FIRST REAL SEARCH RESULT (not navigation links).
+
+Elements (format: [id] role 'text' bbox score):
+[0] generic         'Accessibility Links Skip to main content Turn off'  (0,0,1280x6255) score=0.00
+[1] generic         'Accessibility Links Skip to main content Turn off'  (0,0,1280x6255) score=0.00
+[20] generic         ''                                                   (0,0,1280x16) score=0.00
+[21] generic         'Sign in'                                            (0,16,1280x72) score=0.00
+[22] generic         'Sign in'                                            (0,16,1280x72) score=0.00
+[23] generic         'Sign in'                                            (0,16,1280x72) score=0.00
+[24] generic         'Sign in'                                            (106,26,1174x52) score=0.00
+[25] search          ''                                                   (106,26,861x52) score=0.00
+[26] generic         ''                                                   (106,26,861x52) score=0.00
+[27] generic         ''                                                   (242,26,725x52) score=0.00
+[31] generic         ''                                                   (242,26,725x52) score=0.00
+[257] generic         'Sign in'                                            (1049,26,231x52) score=0.00
+[34] generic         ''                                                   (243,27,679x50) score=0.00
+[35] generic         ''                                                   (243,27,20x50) score=0.00
+[40] generic         ''                                                   (263,27,522x50) score=0.00
+[50] combobox        'Search'                                             (263,27,522x50) score=0.00
+[51] generic         ''                                                   (785,27,133x50) score=0.00
+[52] generic         ''                                                   (785,27,53x50) score=0.00
+[53] button          'Clear'                                              (785,27,48x50) score=0.00
+[54] generic         ''                                                   (797,27,24x50) score=0.00
+[55] generic         ''                                                   (797,27,24x50) score=0.00
+[65] button          'Search'                                             (922,27,44x50) score=0.00
+[258] generic         ''                                                   (1085,28,40x50) score=0.00
+[267] generic         'Sign in'                                            (1111,28,169x50) score=0.00
+[270] generic         ''                                                   (1127,28,48x48) score=0.00
+[275] generic         'Sign in'                                            (1175,28,89x48) score=0.00
+[28] generic         ''                                                   (82,30,160x40) score=0.00
+[259] button          'Settings'                                           (1085,32,40x40) score=0.00
+[271] button          'Google apps'                                        (1131,32,40x40) score=0.00
+[276] link            'Sign in'                                            (1175,32,85x40) score=0.00
+
+IMPORTANT RULES:
+1. ONLY select role="link" (not textbox, not searchbox)
+2. AVOID links with "Ad", "Sponsored", "·", "Images", "Videos", "Shopping", "News"
+3. AVOID navigation links like "Search for Images", "Sign in", "Settings"
+4. SELECT a search result link - it will have descriptive text about a website
+5. Prefer links in the CENTER/LEFT of the page (x between 100-800)
+6. Prefer links lower on the page (y > 200)
+7. Must have visible=true
+
+Example of GOOD search result: [10] link 'Japan Travel Guide - Official Tourism...'
+Example of BAD: [15] link 'Search for Images' (this is navigation, not a result)
+
+Output ONLY this JSON format (id must be a number):
+{
+  "id": 10,
+  "reasoning": "Element 10 is a search result link about Japan travel"
+}
+
+Your response:
+----------------------------------------------------------------------------------------------------
+   Tokens used: 39 (prompt: 1234, completion: 39)
+
+📝 LLM Response:
+   {
+  "id": 25,
+  "reasoning": "Element 25 is a search result link with descriptive text about a website and falls within the specified criteria."
+}...
+✅ Successfully parsed response: ID=25
+   Reasoning: Element 25 is a search result link with descriptive text about a website and falls within the specified criteria.
+
+✅ Selected Element:
+   ID: 25
+   Role: search
+   Text: (no text)
+   BBox: {'x': 106.0, 'y': 26.0, 'width': 861.0, 'height': 52.0}
+   Reasoning: Element 25 is a search result link with descriptive text about a website and falls within the specified criteria.
+📊 Scene 3: Select search result: 1273 tokens (prompt: 1234, completion: 39)
+📸 Screenshot saved: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/local_llm/google_search_Qwen2.5-3B-Instruct/screenshots/20251223_095127/scene4_target_page.png
+
+✅ Navigated to: https://www.google.com/search?q=visiting+japan&sca_esv=93169a9b36e8388d&hl=en&source=hp&biw=1280&bih=800&ei=u9ZKaa6GJfm_0PEPyZLjyAg&iflsig=AOw8s4IAAAAAaUrky07IvjE0-OZLDUiiZrMRj6_y2Ozd&ved=0ahUKEwjuz8CYo9SRAxX5HzQIHUnJGIkQ4dUDCA0&uact=5&oq=visiting+japan&gs_lp=EgNpbWciDnZpc2l0aW5nIGphcGFuMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEj-DVAAWOUKcAB4AJABAJgBOqABqwWqAQIxNLgBA8gBAPgBAYoCC2d3cy13aXotaW1nmAIOoALZBcICDhAAGIAEGLEDGIMBGIoFwgILEAAYgAQYsQMYgwHCAgQQABgDwgIIEAAYgAQYsQOYAwCSBwIxNKAH60eyBwIxNLgH2QXCBwYxLjExLjLIByKACAA&sclient=img&udm=2
+
+================================================================================
+                              DEMO COMPLETE!
+================================================================================
+
+======================================================================
+Token Usage Summary: google_search_Qwen2.5-3B-Instruct
+======================================================================
+Scene 1: Find search box                1220 tokens (Qwen/Qwen2.5-3B-Instruct)
+Scene 3: Select search result           1273 tokens (Qwen/Qwen2.5-3B-Instruct)
+======================================================================
+Total Prompt Tokens:                    2413
+Total Completion Tokens:                  80
+TOTAL TOKENS:                           2493
+Average per Scene:                    1246.5
+======================================================================
+
+💾 Token summary saved: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/local_llm/google_search_Qwen2.5-3B-Instruct/screenshots/20251223_095127/token_summary_data.json
+💾 Saved data: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/local_llm/google_search_Qwen2.5-3B-Instruct/screenshots/20251223_095127/results_data.json
+
+================================================================================
+Results saved to: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/local_llm/google_search_Qwen2.5-3B-Instruct/screenshots/20251223_095127
+================================================================================
+
+✅ Demo completed successfully!
+   Total tokens: 2493
+   Duration: 54.9s
+   Final URL: https://www.google.com/search?q=visiting+japan&sca_esv=93169a9b36e8388d&hl=en&source=hp&biw=1280&bih=800&ei=u9ZKaa6GJfm_0PEPyZLjyAg&iflsig=AOw8s4IAAAAAaUrky07IvjE0-OZLDUiiZrMRj6_y2Ozd&ved=0ahUKEwjuz8CYo9SRAxX5HzQIHUnJGIkQ4dUDCA0&uact=5&oq=visiting+japan&gs_lp=EgNpbWciDnZpc2l0aW5nIGphcGFuMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEj-DVAAWOUKcAB4AJABAJgBOqABqwWqAQIxNLgBA8gBAPgBAYoCC2d3cy13aXotaW1nmAIOoALZBcICDhAAGIAEGLEDGIMBGIoFwgILEAAYgAQYsQMYgwHCAgQQABgDwgIIEAAYgAQYsQOYAwCSBwIxNKAH60eyBwIxNLgH2QXCBwYxLjExLjLIByKACAA&sclient=img&udm=2
+
+========================================================================
+✅ Demo completed successfully!
+========================================================================
+
+Output location:
+  google_search_Qwen2.5-3B-Instruct/screenshots/20251223_095127/
+
+To run again: ./run_demo.sh
+To compare models: python3 compare_models.py

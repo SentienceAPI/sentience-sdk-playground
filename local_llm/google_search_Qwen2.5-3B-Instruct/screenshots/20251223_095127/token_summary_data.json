@@ -1,0 +1,24 @@
+{
+  "demo_name": "google_search_Qwen2.5-3B-Instruct",
+  "total_prompt_tokens": 2413,
+  "total_completion_tokens": 80,
+  "total_tokens": 2493,
+  "interactions": [
+    {
+      "scene": "Scene 1: Find search box",
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "prompt_tokens": 1179,
+      "completion_tokens": 41,
+      "total": 1220
+    },
+    {
+      "scene": "Scene 3: Select search result",
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "prompt_tokens": 1234,
+      "completion_tokens": 39,
+      "total": 1273
+    }
+  ],
+  "num_interactions": 2,
+  "average_per_scene": 1246.5
+}

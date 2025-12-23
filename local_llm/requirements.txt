@@ -1,0 +1,20 @@
+# Core dependencies
+sentience-python
+python-dotenv
+
+# LLM dependencies
+transformers>=4.36.0
+accelerate>=0.25.0
+torch>=2.1.0
+
+# Quantization (optional but recommended for memory savings)
+bitsandbytes>=0.41.0
+
+# Cloud LLM (for comparison)
+openai>=1.0.0
+
+# Utilities
+pillow>=10.0.0
+
+# Faster inference (optional)
+optimum>=1.16.0
