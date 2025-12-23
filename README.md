@@ -118,18 +118,21 @@ cd amazon_shopping
 
 ---
 
-## 🎬 Generated Videos
+## 🎬 Demo Videos
 
-Each demo creates videos with:
+### Google Search Demo
+- **SDK + GPT-4 Turbo** ✅: [playground/google_search/demo1_sdk/video/demo1_google_search_20251222_194454.mp4](google_search/demo1_sdk/video/demo1_google_search_20251222_194454.mp4)
+
+### Amazon Shopping Demo
+- **SDK + GPT-4 Turbo** ✅: [playground/amazon_shopping/demo1_sdk_llm/video/demo1_sdk_final.mp4](amazon_shopping/demo1_sdk_llm/video/demo1_sdk_final.mp4)
+- **Vision LLM (GPT-4o)** ❌: Failed to complete tasks
+
+### Video Features
+Each demo video includes:
 - **Ken Burns effect**: Smooth zoom + pan on static screenshots
 - **Token overlays**: Real-time token usage displayed on screen
 - **Bounding boxes**: Visual debugging of API-filtered elements (SDK only)
 - **Scene transitions**: Clear progression through automation steps
-
-Example output:
-```
-demo1_sdk/video/demo1_google_search_20241222_194454.mp4
-```
 
 ---
 
