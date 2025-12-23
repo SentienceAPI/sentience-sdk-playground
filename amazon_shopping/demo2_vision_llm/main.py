@@ -32,9 +32,13 @@ def main():
     tracker = TokenTracker("Demo 2: Vision + LLM")
     agent = VisionAgent(api_key=openai_api_key, tracker=tracker)
 
-    # Screenshot directory
-    screenshots_dir = os.path.join(os.path.dirname(__file__), 'screenshots')
+    # Screenshot directory with timestamp
+    from datetime import datetime
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    base_screenshots_dir = os.path.join(os.path.dirname(__file__), 'screenshots')
+    screenshots_dir = os.path.join(base_screenshots_dir, timestamp)
     os.makedirs(screenshots_dir, exist_ok=True)
+    print(f"Screenshots will be saved to: {screenshots_dir}")
 
     print("\n" + "="*70)
     print("DEMO 2: GPT-4o Vision + Playwright - Amazon Shopping")
@@ -58,19 +62,19 @@ def main():
         print(f"Screenshot saved: {screenshot_path}")
 
         # Ask Vision LLM to find search bar
-        prompt = """You are an AI agent controlling a web browser to shop on Amazon.
+        prompt = """You are a UI testing assistant analyzing a screenshot for automated testing purposes.
 
-Current Task: Find the search bar on the Amazon homepage.
+Current Task: Identify the search input field on the page.
 
 Instructions:
 1. Analyze the provided screenshot
 2. Locate the search input field (usually near the top of the page)
-3. Identify the center coordinates (x, y) of the search bar
+3. Identify the center coordinates (x, y) of the search input
 4. Provide precise pixel coordinates based on a 1920x1080 viewport
 
 Response Format (JSON only):
 {
-  "reasoning": "brief explanation of how you identified the search bar",
+  "reasoning": "brief explanation of how you identified the search input",
   "element_description": "description of the visual element",
   "coordinates": {"x": <center_x>, "y": <center_y>},
   "confidence": "high/medium/low"
@@ -119,22 +123,22 @@ Response Format (JSON only):
         print(f"Screenshot saved: {screenshot_path}")
 
         # Ask Vision LLM to select a product
-        prompt = """You are an AI agent controlling a web browser to shop on Amazon.
+        prompt = """You are a UI testing assistant analyzing a screenshot for automated testing purposes.
 
-Current Task: Select a product from the search results for "Christmas gift".
+Current Task: Identify the first product listing element in search results.
 
 Instructions:
-1. Analyze the provided screenshot showing Amazon search results
-2. Identify product listings in the main content area
-3. Select the FIRST clearly visible product (top-left priority)
-4. Locate the product image or title that is clickable
-5. Provide the center coordinates (x, y) to click on the product
-6. Avoid ads (labeled "Sponsored") if possible, but select first available product
+1. Analyze the provided screenshot
+2. Identify product listing elements in the main content area
+3. Locate the FIRST clearly visible product item (top-left priority)
+4. Find the clickable product image or title element
+5. Provide the center coordinates (x, y) for UI testing
+6. Note if the item is marked as "Sponsored"
 
 Response Format (JSON only):
 {
-  "reasoning": "explanation of product selection logic",
-  "product_description": "brief description of selected product",
+  "reasoning": "explanation of element identification logic",
+  "product_description": "brief description of identified element",
   "coordinates": {"x": <center_x>, "y": <center_y>},
   "confidence": "high/medium/low",
   "is_sponsored": true/false
@@ -143,20 +147,54 @@ Response Format (JSON only):
         result = agent.analyze_screenshot(screenshot_path, prompt, "Scene 3: Select Product")
 
         # Click on product with validation
-        coords = result.get('coordinates', {})
-        x = coords.get('x')
-        y = coords.get('y')
+        coords = result.get('coordinates') or {}
+        x = coords.get('x') if isinstance(coords, dict) else None
+        y = coords.get('y') if isinstance(coords, dict) else None
 
         if x is None or y is None:
             print(f"\n❌ ERROR: Vision LLM could not find product. Response: {result}")
+            if 'error' in result:
+                print(f"LLM Error: {result['error']}")
             raise Exception("Could not find product coordinates")
 
         print(f"\nClicking on product: {result.get('product_description', 'Unknown')}")
         print(f"Coordinates: ({x}, {y})")
+
+        # Get current URL before click
+        url_before = page.url
+        print(f"Current URL: {url_before}")
+
         page.mouse.click(x, y)
+
         # Wait for navigation (Amazon pages have continuous network activity, so use simple wait)
         print("Waiting for product page to load...")
         time.sleep(5)  # Simple wait - Amazon loads dynamically
+
+        # Check if URL changed (navigation happened)
+        url_after = page.url
+        print(f"After click URL: {url_after}")
+
+        if url_before == url_after:
+            print("⚠️  WARNING: URL did not change - click may have failed")
+            print("Trying alternative: click with force and larger delay...")
+            page.mouse.click(x, y, click_count=1)
+            time.sleep(3)
+            url_after = page.url
+            print(f"After retry URL: {url_after}")
+
+            if url_before == url_after:
+                print("❌ ERROR: Navigation failed - still on search results page")
+                # Try clicking the first product link directly as fallback
+                print("Attempting fallback: clicking first product link by selector...")
+                try:
+                    # Amazon product links usually have specific attributes
+                    product_link = page.locator("a[href*='/dp/'], a[href*='/gp/product/']").first
+                    product_link.click()
+                    time.sleep(5)
+                    print(f"Fallback click URL: {page.url}")
+                except Exception as e:
+                    print(f"Fallback click failed: {e}")
+                    raise Exception("Could not navigate to product page")
 
         # =================================================================
         # SCENE 4: Find and Click "Add to Cart" Button
@@ -174,36 +212,38 @@ Response Format (JSON only):
         print(f"Screenshot saved: {screenshot_path} (1920x1600 for panning effect)")
 
         # Ask Vision LLM to find Add to Cart button
-        prompt = """You are an AI agent controlling a web browser to shop on Amazon.
+        prompt = """You are a UI testing assistant analyzing a screenshot for automated testing purposes.
 
-Current Task: Find and click the "Add to Cart" button on the product details page.
+Current Task: Identify a button element with text "Add to Cart" on a product page.
 
 Instructions:
-1. Analyze the provided screenshot of the Amazon product page
-2. Locate the "Add to Cart" button (typically orange/yellow button on right side)
-3. Distinguish it from "Buy Now" button if both are present
-4. Provide the center coordinates (x, y) of the "Add to Cart" button
-5. Ensure the button is fully visible and clickable
+1. Analyze the provided screenshot
+2. Locate the button with text "Add to Cart" (typically orange/yellow colored)
+3. Distinguish it from other buttons like "Buy Now" if present
+4. Provide the center coordinates (x, y) for UI testing
+5. Ensure the button is fully visible
 
 Response Format (JSON only):
 {
-  "reasoning": "explanation of how you identified the Add to Cart button",
-  "button_description": "visual description of the button (color, text, position)",
+  "reasoning": "explanation of how you identified the button element",
+  "button_description": "visual description (color, text, position)",
   "coordinates": {"x": <center_x>, "y": <center_y>},
   "confidence": "high/medium/low",
-  "other_buttons_nearby": ["Buy Now", "Add to List"]
+  "other_buttons_nearby": ["list of nearby button texts"]
 }"""
 
-        result = agent.analyze_screenshot(screenshot_path, prompt, "Scene 4: Add to Cart")
+        result = agent.analyze_screenshot(screenshot_path, prompt, "Scene 4: Add to Cart", viewport_width=1920, viewport_height=1600)
 
         # Click Add to Cart with validation
-        coords = result.get('coordinates', {})
-        x = coords.get('x')
-        y = coords.get('y')
+        coords = result.get('coordinates') or {}
+        x = coords.get('x') if isinstance(coords, dict) else None
+        y = coords.get('y') if isinstance(coords, dict) else None
 
         if x is None or y is None:
             print(f"\n❌ ERROR: Vision LLM could not find Add to Cart button")
             print(f"Response: {result}")
+            if 'error' in result:
+                print(f"LLM Error: {result['error']}")
             print("Attempting to find button using selector fallback...")
             # Fallback: try to find button by selector
             try:
@@ -231,22 +271,22 @@ Response Format (JSON only):
         print(f"Screenshot saved: {screenshot_path}")
 
         # Ask Vision LLM to verify
-        prompt = """You are an AI agent controlling a web browser to shop on Amazon.
+        prompt = """You are a UI testing assistant verifying UI state for automated testing purposes.
 
-Current Task: Verify that the item was successfully added to the cart.
+Current Task: Verify if a success confirmation is displayed on the page.
 
 Instructions:
 1. Analyze the provided screenshot
 2. Look for visual confirmation indicators:
-   - Success overlay/modal with "Added to Cart" message
+   - Success overlay/modal with confirmation message
    - Cart icon in header with updated count
    - Green checkmark or success indicator
-3. Determine if the action was successful
+3. Determine if success indicators are present
 
 Response Format (JSON only):
 {
   "success": true/false,
-  "reasoning": "explanation of what visual cues indicate success or failure",
+  "reasoning": "explanation of what visual cues were found",
   "confirmation_elements": ["list of visual confirmations found"],
   "cart_count": "number shown in cart icon if visible or empty string"
 }"""

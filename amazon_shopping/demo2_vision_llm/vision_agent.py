@@ -24,7 +24,7 @@ class VisionAgent:
         with open(image_path, "rb") as image_file:
             return base64.b64encode(image_file.read()).decode('utf-8')
 
-    def analyze_screenshot(self, image_path: str, task_prompt: str, scene_name: str) -> Dict[str, Any]:
+    def analyze_screenshot(self, image_path: str, task_prompt: str, scene_name: str, viewport_width: int = 1920, viewport_height: int = 1080) -> Dict[str, Any]:
         """
         Analyze screenshot and return decision
 
@@ -32,6 +32,8 @@ class VisionAgent:
             image_path: Path to screenshot image
             task_prompt: Task-specific prompt
             scene_name: Scene identifier for tracking
+            viewport_width: Viewport width in pixels (default: 1920)
+            viewport_height: Viewport height in pixels (default: 1080)
 
         Returns:
             Parsed JSON response from LLM
@@ -48,7 +50,7 @@ class VisionAgent:
         full_prompt = f"""{task_prompt}
 
 IMPORTANT: Respond ONLY with valid JSON. No markdown, no explanation outside the JSON.
-The viewport size is 1920x1080. Provide coordinates relative to this viewport."""
+The viewport size is {viewport_width}x{viewport_height}. Provide coordinates relative to this viewport."""
 
         # Call OpenAI Vision API
         response = self.client.chat.completions.create(
@@ -56,7 +58,7 @@ The viewport size is 1920x1080. Provide coordinates relative to this viewport.""
             messages=[
                 {
                     "role": "system",
-                    "content": "You are a helpful AI agent that analyzes web page screenshots and returns structured JSON responses with precise coordinates."
+                    "content": "You are a UI testing assistant that analyzes web page screenshots for automated testing purposes. You identify UI elements and return structured JSON responses with precise coordinates."
                 },
                 {
                     "role": "user",
@@ -76,7 +78,7 @@ The viewport size is 1920x1080. Provide coordinates relative to this viewport.""
                 }
             ],
             temperature=0.1,
-            max_tokens=1000,
+            max_tokens=2000,
             response_format={"type": "json_object"}
         )
 
@@ -88,9 +90,39 @@ The viewport size is 1920x1080. Provide coordinates relative to this viewport.""
             completion_tokens=usage.completion_tokens
         )
 
-        # Parse response
-        result = json.loads(response.choices[0].message.content)
-        print(f"\nVision LLM Decision:")
-        print(json.dumps(result, indent=2))
+        # Parse response with error handling
+        message_content = response.choices[0].message.content
 
-        return result
+        if message_content is None:
+            # Check for refusal
+            refusal = response.choices[0].message.refusal
+            finish_reason = response.choices[0].finish_reason
+
+            error_msg = f"Vision LLM returned empty response.\n"
+            error_msg += f"Finish reason: {finish_reason}\n"
+            if refusal:
+                error_msg += f"Refusal: {refusal}\n"
+
+            print(f"\n❌ ERROR: {error_msg}")
+            print(f"Full response: {response}")
+
+            # Return a safe default structure
+            return {
+                "error": error_msg,
+                "coordinates": None,
+                "reasoning": "LLM returned empty response"
+            }
+
+        try:
+            result = json.loads(message_content)
+            print(f"\nVision LLM Decision:")
+            print(json.dumps(result, indent=2))
+            return result
+        except json.JSONDecodeError as e:
+            print(f"\n❌ ERROR: Failed to parse JSON response: {e}")
+            print(f"Raw content: {message_content}")
+            return {
+                "error": f"JSON parse error: {e}",
+                "coordinates": None,
+                "reasoning": "Failed to parse LLM response"
+            }

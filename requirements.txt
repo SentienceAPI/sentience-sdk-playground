@@ -13,7 +13,7 @@ playwright>=1.57.0
 
 # Video generation - MoviePy 1.x
 moviepy==1.0.3
-Pillow==10.2.0
+Pillow>=9.0.0,<10.0  # MoviePy 1.0.3 is incompatible with Pillow 10+
 decorator==4.4.2
 imageio==2.31.1
 imageio-ffmpeg==0.4.9

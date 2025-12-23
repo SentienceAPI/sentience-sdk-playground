@@ -1,0 +1,1015 @@
+{
+  "status": "success",
+  "timestamp": "2025-12-23T01:51:56.738555788+00:00",
+  "url": "https://www.amazon.com/",
+  "viewport": {
+    "width": 1500.0,
+    "height": 600.0
+  },
+  "elements": [
+    {
+      "id": 80,
+      "role": "button",
+      "text": "Delivering to Redmond 98052 Update location",
+      "importance": 526,
+      "bbox": {
+        "x": 134.0,
+        "y": 5.0,
+        "width": 194.765625,
+        "height": 50.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 74,
+      "role": "link",
+      "text": "Amazon",
+      "importance": 285,
+      "bbox": {
+        "x": 16.0,
+        "y": 5.0,
+        "width": 113.0,
+        "height": 50.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 194,
+      "role": "link",
+      "text": "0 items in cart",
+      "importance": 223,
+      "bbox": {
+        "x": 1820.984375,
+        "y": 5.0,
+        "width": 84.015625,
+        "height": 50.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 177,
+      "role": "link",
+      "text": "Choose a language for shopping in Amazon United States. The current selection is English (EN).\n",
+      "importance": 244,
+      "bbox": {
+        "x": 1523.03125,
+        "y": 6.0,
+        "width": 46.453125,
+        "height": 50.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 173,
+      "role": "button",
+      "text": "Go",
+      "importance": 448,
+      "bbox": {
+        "x": 1447.03125,
+        "y": 10.0,
+        "width": 45.0,
+        "height": 42.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 172,
+      "role": "span",
+      "text": "Go",
+      "importance": 198,
+      "bbox": {
+        "x": 1447.03125,
+        "y": 10.0,
+        "width": 45.0,
+        "height": 42.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 168,
+      "role": "searchbox",
+      "text": "Search Amazon",
+      "importance": 410,
+      "bbox": {
+        "x": 403.765625,
+        "y": 11.0,
+        "width": 1043.265625,
+        "height": 38.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 9
+    },
+    {
+      "id": 181,
+      "role": "img",
+      "text": "United States",
+      "importance": 166,
+      "bbox": {
+        "x": 1525.231201171875,
+        "y": 26.900001525878903,
+        "width": 21.60009765625,
+        "height": 16.199996948242188
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 483,
+      "role": "button",
+      "text": "Open All Categories Menu",
+      "importance": 656,
+      "bbox": {
+        "x": 15.0,
+        "y": 60.0,
+        "width": 57.890625,
+        "height": 39.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 591,
+      "role": "button",
+      "text": "Previous slide",
+      "importance": 582,
+      "bbox": {
+        "x": 210.0,
+        "y": 99.0,
+        "width": 84.0,
+        "height": 250.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 648,
+      "role": "button",
+      "text": "Next slide",
+      "importance": 530,
+      "bbox": {
+        "x": 1626.0,
+        "y": 99.0,
+        "width": 84.0,
+        "height": 250.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 459,
+      "role": "link",
+      "text": "New to Amazon? Start here to create an account",
+      "importance": 206,
+      "bbox": {
+        "x": 1669.96875,
+        "y": 118.0,
+        "width": 54.359375,
+        "height": 12.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 697,
+      "role": "link",
+      "text": "For her",
+      "importance": 409,
+      "bbox": {
+        "x": 620.0,
+        "y": 406.296875,
+        "width": 147.25,
+        "height": 115.84375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 703,
+      "role": "link",
+      "text": "For him",
+      "importance": 406,
+      "bbox": {
+        "x": 782.75,
+        "y": 406.296875,
+        "width": 147.25,
+        "height": 115.84375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 667,
+      "role": "link",
+      "text": "Under $25",
+      "importance": 392,
+      "bbox": {
+        "x": 412.75,
+        "y": 406.296875,
+        "width": 147.25,
+        "height": 115.84375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 734,
+      "role": "link",
+      "text": "Fashion",
+      "importance": 387,
+      "bbox": {
+        "x": 990.0,
+        "y": 406.296875,
+        "width": 147.25,
+        "height": 115.84375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 661,
+      "role": "link",
+      "text": "Under $10",
+      "importance": 374,
+      "bbox": {
+        "x": 250.0,
+        "y": 406.296875,
+        "width": 147.25,
+        "height": 115.84375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 740,
+      "role": "link",
+      "text": "Toys",
+      "importance": 368,
+      "bbox": {
+        "x": 1152.75,
+        "y": 406.296875,
+        "width": 147.25,
+        "height": 115.84375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 699,
+      "role": "img",
+      "text": "For her",
+      "importance": 175,
+      "bbox": {
+        "x": 600.75,
+        "y": 406.296875,
+        "width": 185.734375,
+        "height": 115.84375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 705,
+      "role": "img",
+      "text": "For him",
+      "importance": 172,
+      "bbox": {
+        "x": 763.5,
+        "y": 406.296875,
+        "width": 185.734375,
+        "height": 115.84375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 698,
+      "role": "div",
+      "text": "",
+      "importance": 159,
+      "bbox": {
+        "x": 620.0,
+        "y": 406.296875,
+        "width": 147.25,
+        "height": 115.84375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 669,
+      "role": "img",
+      "text": "Under $25",
+      "importance": 158,
+      "bbox": {
+        "x": 393.5,
+        "y": 406.296875,
+        "width": 185.734375,
+        "height": 115.84375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 704,
+      "role": "div",
+      "text": "",
+      "importance": 156,
+      "bbox": {
+        "x": 782.75,
+        "y": 406.296875,
+        "width": 147.25,
+        "height": 115.84375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 780,
+      "role": "link",
+      "text": "Click to learn more about this sponsored product",
+      "importance": 197,
+      "bbox": {
+        "x": 1365.0,
+        "y": 519.0,
+        "width": 300.0,
+        "height": 250.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 1
+    },
+    {
+      "id": 710,
+      "role": "link",
+      "text": "For kids",
+      "importance": 390,
+      "bbox": {
+        "x": 620.0,
+        "y": 566.140625,
+        "width": 147.25,
+        "height": 115.84375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 716,
+      "role": "link",
+      "text": "For teens",
+      "importance": 388,
+      "bbox": {
+        "x": 782.75,
+        "y": 566.140625,
+        "width": 147.25,
+        "height": 115.84375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 680,
+      "role": "link",
+      "text": "Deals",
+      "importance": 379,
+      "bbox": {
+        "x": 412.75,
+        "y": 566.140625,
+        "width": 147.25,
+        "height": 115.84375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 747,
+      "role": "link",
+      "text": "Electronics",
+      "importance": 375,
+      "bbox": {
+        "x": 990.0,
+        "y": 566.140625,
+        "width": 147.25,
+        "height": 115.84375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 674,
+      "role": "link",
+      "text": "Under $50",
+      "importance": 364,
+      "bbox": {
+        "x": 250.0,
+        "y": 566.140625,
+        "width": 147.25,
+        "height": 115.84375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 753,
+      "role": "link",
+      "text": "Home & kitchen",
+      "importance": 359,
+      "bbox": {
+        "x": 1152.75,
+        "y": 566.140625,
+        "width": 147.25,
+        "height": 115.84375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 712,
+      "role": "img",
+      "text": "For kids",
+      "importance": 156,
+      "bbox": {
+        "x": 600.75,
+        "y": 566.140625,
+        "width": 185.734375,
+        "height": 115.84375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 718,
+      "role": "img",
+      "text": "For teens",
+      "importance": 154,
+      "bbox": {
+        "x": 763.5,
+        "y": 566.140625,
+        "width": 185.734375,
+        "height": 115.84375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 722,
+      "role": "link",
+      "text": "Last-minute stocking stuffers - Discover more for Holiday",
+      "importance": 318,
+      "bbox": {
+        "x": 620.0,
+        "y": 732.109375,
+        "width": 310.0,
+        "height": 16.890625
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 686,
+      "role": "link",
+      "text": "Last-minute gifts by price - Shop all Holiday Gifts",
+      "importance": 303,
+      "bbox": {
+        "x": 250.0,
+        "y": 732.109375,
+        "width": 310.0,
+        "height": 16.890625
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 759,
+      "role": "link",
+      "text": "Gifts delivered by Christmas - Explore the Holiday Shop",
+      "importance": 299,
+      "bbox": {
+        "x": 990.0,
+        "y": 732.109375,
+        "width": 310.0,
+        "height": 16.890625
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 789,
+      "role": "button",
+      "text": "Leave feedback on Sponsored ad",
+      "importance": 611,
+      "bbox": {
+        "x": 1585.734375,
+        "y": 771.0,
+        "width": 74.265625,
+        "height": 16.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 806,
+      "role": "link",
+      "text": "Van Cleef",
+      "importance": 349,
+      "bbox": {
+        "x": 412.75,
+        "y": 846.296875,
+        "width": 147.25,
+        "height": 115.84375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 899,
+      "role": "link",
+      "text": "Louis Vuitton Minis",
+      "importance": 346,
+      "bbox": {
+        "x": 990.0,
+        "y": 846.296875,
+        "width": 147.25,
+        "height": 115.84375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 800,
+      "role": "link",
+      "text": "Cartier",
+      "importance": 339,
+      "bbox": {
+        "x": 250.0,
+        "y": 846.296875,
+        "width": 147.25,
+        "height": 115.84375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 905,
+      "role": "link",
+      "text": "Dior Saddle Bag",
+      "importance": 335,
+      "bbox": {
+        "x": 1152.75,
+        "y": 846.296875,
+        "width": 147.25,
+        "height": 115.84375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 935,
+      "role": "link",
+      "text": "PC",
+      "importance": 318,
+      "bbox": {
+        "x": 1360.0,
+        "y": 846.296875,
+        "width": 147.25,
+        "height": 115.84375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 941,
+      "role": "link",
+      "text": "Wireless",
+      "importance": 302,
+      "bbox": {
+        "x": 1522.75,
+        "y": 846.296875,
+        "width": 147.25,
+        "height": 115.84375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 839,
+      "role": "link",
+      "text": "27% off Ends in 06:08:04",
+      "importance": 173,
+      "bbox": {
+        "x": 620.0,
+        "y": 846.296875,
+        "width": 152.0,
+        "height": 148.84375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 852,
+      "role": "link",
+      "text": "33% off Ends in 06:08:04",
+      "importance": 173,
+      "bbox": {
+        "x": 778.0,
+        "y": 846.296875,
+        "width": 152.0,
+        "height": 148.84375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 819,
+      "role": "link",
+      "text": "Rolex",
+      "importance": 330,
+      "bbox": {
+        "x": 412.75,
+        "y": 1006.140625,
+        "width": 147.25,
+        "height": 115.84375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 912,
+      "role": "link",
+      "text": "Chanel Classic Flap",
+      "importance": 328,
+      "bbox": {
+        "x": 990.0,
+        "y": 1006.140625,
+        "width": 147.25,
+        "height": 115.84375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 813,
+      "role": "link",
+      "text": "Chanel",
+      "importance": 322,
+      "bbox": {
+        "x": 250.0,
+        "y": 1006.140625,
+        "width": 147.25,
+        "height": 115.84375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 918,
+      "role": "link",
+      "text": "Fendi Baguette",
+      "importance": 319,
+      "bbox": {
+        "x": 1152.75,
+        "y": 1006.140625,
+        "width": 147.25,
+        "height": 115.84375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 948,
+      "role": "link",
+      "text": "Software",
+      "importance": 304,
+      "bbox": {
+        "x": 1360.0,
+        "y": 1006.140625,
+        "width": 147.25,
+        "height": 115.84375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 954,
+      "role": "link",
+      "text": "Home entertainment",
+      "importance": 289,
+      "bbox": {
+        "x": 1522.75,
+        "y": 1006.140625,
+        "width": 147.25,
+        "height": 115.84375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    }
+  ],
+  "screenshot": null,
+  "screenshot_format": null,
+  "error": null,
+  "requires_license": null
+}

@@ -1,0 +1,21 @@
+{
+  "demo_name": "Google Search Demo 1: SDK + LLM",
+  "total_prompt_tokens": 1205,
+  "total_completion_tokens": 162,
+  "total_tokens": 1367,
+  "interactions": [
+    {
+      "scene": "Scene 1: Find Search Box",
+      "prompt_tokens": 316,
+      "completion_tokens": 75,
+      "total": 391
+    },
+    {
+      "scene": "Scene 3: Select Search Result",
+      "prompt_tokens": 889,
+      "completion_tokens": 87,
+      "total": 976
+    }
+  ],
+  "average_per_scene": 683.5
+}

@@ -1,0 +1,1015 @@
+{
+  "status": "success",
+  "timestamp": "2025-12-23T01:52:30.551335990+00:00",
+  "url": "https://www.amazon.com/cart/smart-wagon?newItems=610e535e-3027-4a12-8088-beb02fe29655,1&ref_=sw_refresh",
+  "viewport": {
+    "width": 3636.0,
+    "height": 390.0
+  },
+  "elements": [
+    {
+      "id": 79,
+      "role": "button",
+      "text": "Delivering to Redmond 98052 Update location",
+      "importance": 512,
+      "bbox": {
+        "x": 134.0,
+        "y": 5.0,
+        "width": 199.640625,
+        "height": 50.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 193,
+      "role": "link",
+      "text": "1 item in cart",
+      "importance": 354,
+      "bbox": {
+        "x": 1691.0,
+        "y": 5.0,
+        "width": 84.0,
+        "height": 50.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 73,
+      "role": "link",
+      "text": "Amazon",
+      "importance": 280,
+      "bbox": {
+        "x": 16.0,
+        "y": 5.0,
+        "width": 113.0,
+        "height": 50.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 176,
+      "role": "link",
+      "text": "Choose a language for shopping in Amazon United States. The current selection is English (EN).\n",
+      "importance": 324,
+      "bbox": {
+        "x": 1401.140625,
+        "y": 6.0,
+        "width": 45.375,
+        "height": 50.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 172,
+      "role": "button",
+      "text": "Go",
+      "importance": 516,
+      "bbox": {
+        "x": 1325.140625,
+        "y": 10.0,
+        "width": 45.0,
+        "height": 42.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 171,
+      "role": "span",
+      "text": "Go",
+      "importance": 266,
+      "bbox": {
+        "x": 1325.140625,
+        "y": 10.0,
+        "width": 45.0,
+        "height": 42.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 167,
+      "role": "searchbox",
+      "text": "Search Amazon",
+      "importance": 384,
+      "bbox": {
+        "x": 408.640625,
+        "y": 11.0,
+        "width": 916.5,
+        "height": 38.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 9
+    },
+    {
+      "id": 180,
+      "role": "img",
+      "text": "United States",
+      "importance": 245,
+      "bbox": {
+        "x": 1403.340576171875,
+        "y": 26.900001525878903,
+        "width": 21.60009765625,
+        "height": 16.199996948242188
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 471,
+      "role": "button",
+      "text": "Open All Categories Menu",
+      "importance": 650,
+      "bbox": {
+        "x": 15.0,
+        "y": 60.0,
+        "width": 58.421875,
+        "height": 39.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 752,
+      "role": "button",
+      "text": "Proceed to checkout",
+      "importance": 677,
+      "bbox": {
+        "x": 1306.890625,
+        "y": 173.0,
+        "width": 309.109375,
+        "height": 30.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 20
+    },
+    {
+      "id": 606,
+      "role": "list",
+      "text": "$12.86 Quantity is 1 1 1",
+      "importance": 211,
+      "bbox": {
+        "x": 1791.0,
+        "y": 184.0,
+        "width": 129.0,
+        "height": 215.640625
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 607,
+      "role": "li",
+      "text": "$12.86 Quantity is 1 1 1",
+      "importance": 207,
+      "bbox": {
+        "x": 1791.0,
+        "y": 184.0,
+        "width": 129.0,
+        "height": 203.640625
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 608,
+      "role": "span",
+      "text": "$12.86 Quantity is 1 1 1",
+      "importance": 207,
+      "bbox": {
+        "x": 1791.0,
+        "y": 184.0,
+        "width": 129.0,
+        "height": 203.640625
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 778,
+      "role": "iframe",
+      "text": "",
+      "importance": 199,
+      "bbox": {
+        "x": 531.0,
+        "y": 322.0,
+        "width": 728.0,
+        "height": 90.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 662,
+      "role": "button",
+      "text": "Delete Ferrero Collection, Premium Assorted, Hazelnut, Dark Chocolate and Coconut, 24 Count Holiday Gift Box, 9.1 oz",
+      "importance": 720,
+      "bbox": {
+        "x": 1803.671875,
+        "y": 340.640625,
+        "width": 32.0,
+        "height": 26.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 672,
+      "role": "button",
+      "text": "Increase quantity by one",
+      "importance": 719,
+      "bbox": {
+        "x": 1875.3125,
+        "y": 340.640625,
+        "width": 32.0,
+        "height": 26.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 780,
+      "role": "button",
+      "text": "Leave feedback on Sponsored ad",
+      "importance": 701,
+      "bbox": {
+        "x": 1185.046875,
+        "y": 413.0,
+        "width": 73.953125,
+        "height": 17.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1070,
+      "role": "link",
+      "text": "",
+      "importance": 244,
+      "bbox": {
+        "x": 892.0,
+        "y": 488.0,
+        "width": 194.0,
+        "height": 194.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1004,
+      "role": "link",
+      "text": "",
+      "importance": 234,
+      "bbox": {
+        "x": 690.0,
+        "y": 488.0,
+        "width": 194.0,
+        "height": 194.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 938,
+      "role": "link",
+      "text": "",
+      "importance": 224,
+      "bbox": {
+        "x": 488.0,
+        "y": 488.0,
+        "width": 194.0,
+        "height": 194.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 877,
+      "role": "link",
+      "text": "",
+      "importance": 213,
+      "bbox": {
+        "x": 286.0,
+        "y": 488.0,
+        "width": 194.0,
+        "height": 194.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 816,
+      "role": "link",
+      "text": "",
+      "importance": 202,
+      "bbox": {
+        "x": 84.0,
+        "y": 488.0,
+        "width": 194.0,
+        "height": 194.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1067,
+      "role": "li",
+      "text": "Ferrero Rocher Collection, Premium Gift Set, Hazelnut Milk Chocolate, Dark Chocolate and Coconut, 48",
+      "importance": 198,
+      "bbox": {
+        "x": 892.0,
+        "y": 488.0,
+        "width": 194.0,
+        "height": 390.390625
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1071,
+      "role": "div",
+      "text": "",
+      "importance": 194,
+      "bbox": {
+        "x": 892.0,
+        "y": 488.0,
+        "width": 194.0,
+        "height": 194.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1072,
+      "role": "img",
+      "text": "Ferrero Rocher Collection, Premium Gift Set, Hazelnut Milk Chocolate, Dark Chocolate and Coconut, 48 Count, 4.6 oz",
+      "importance": 194,
+      "bbox": {
+        "x": 892.0,
+        "y": 488.0,
+        "width": 194.0,
+        "height": 194.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 812,
+      "role": "list",
+      "text": "Royal Dansk Danish Butter Cookies, Premium Assorted Cookies in Gift Tin, Great for Sharing and Gifti",
+      "importance": 193,
+      "bbox": {
+        "x": 80.0,
+        "y": 488.0,
+        "width": 1630.0,
+        "height": 390.390625
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1001,
+      "role": "li",
+      "text": "Ferrero Collection, 12 Count, Premium Gourmet Assorted Hazelnut Milk Chocolate, Dark Chocolate and C",
+      "importance": 188,
+      "bbox": {
+        "x": 690.0,
+        "y": 488.0,
+        "width": 194.0,
+        "height": 390.390625
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1125,
+      "role": "button",
+      "text": "Add to cart, Ferrero Rocher Collection, Premium Gift Set, Hazelnut Milk Chocolate, Dark Chocolate and Coconut, 48 Count, 4.6 oz",
+      "importance": 793,
+      "bbox": {
+        "x": 902.703125,
+        "y": 835.390625,
+        "width": 93.03125,
+        "height": 30.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 20
+    },
+    {
+      "id": 1064,
+      "role": "button",
+      "text": "Add to cart, Ferrero Collection, 12 Count, Premium Gourmet Assorted Hazelnut Milk Chocolate, Dark Chocolate and Coconut, 4.6 oz",
+      "importance": 784,
+      "bbox": {
+        "x": 700.703125,
+        "y": 835.390625,
+        "width": 93.03125,
+        "height": 30.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 20
+    },
+    {
+      "id": 998,
+      "role": "button",
+      "text": "Add to cart, Holiday Christmas Nuts Gift Basket - Assortment of Sweet & Roasted Salted Gourmet Nuts - Assorted Food Gift Box for Christmas, Holiday, Family, Sympathy, Men & Women.",
+      "importance": 774,
+      "bbox": {
+        "x": 498.703125,
+        "y": 835.390625,
+        "width": 93.03125,
+        "height": 30.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 20
+    },
+    {
+      "id": 932,
+      "role": "button",
+      "text": "Add to cart, Ferrero Rocher, Premium Milk Chocolate Hazelnut, Individually Wrapped Chocolate Gift Box, 24 Count, 10.6 oz",
+      "importance": 764,
+      "bbox": {
+        "x": 296.703125,
+        "y": 835.390625,
+        "width": 93.03125,
+        "height": 30.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 20
+    },
+    {
+      "id": 871,
+      "role": "button",
+      "text": "Add to cart, Royal Dansk Danish Butter Cookies, Premium Assorted Cookies in Gift Tin, Great for Sharing and Gifting, 12 oz",
+      "importance": 754,
+      "bbox": {
+        "x": 94.703125,
+        "y": 835.390625,
+        "width": 93.03125,
+        "height": 30.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 20
+    },
+    {
+      "id": 1557,
+      "role": "link",
+      "text": "",
+      "importance": 245,
+      "bbox": {
+        "x": 1498.0,
+        "y": 966.390625,
+        "width": 194.0,
+        "height": 194.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1496,
+      "role": "link",
+      "text": "",
+      "importance": 242,
+      "bbox": {
+        "x": 1296.0,
+        "y": 966.390625,
+        "width": 194.0,
+        "height": 194.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1435,
+      "role": "link",
+      "text": "",
+      "importance": 236,
+      "bbox": {
+        "x": 1094.0,
+        "y": 966.390625,
+        "width": 194.0,
+        "height": 194.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1413,
+      "role": "link",
+      "text": "",
+      "importance": 229,
+      "bbox": {
+        "x": 892.0,
+        "y": 966.390625,
+        "width": 194.0,
+        "height": 194.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1352,
+      "role": "link",
+      "text": "",
+      "importance": 221,
+      "bbox": {
+        "x": 690.0,
+        "y": 966.390625,
+        "width": 194.0,
+        "height": 194.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1291,
+      "role": "link",
+      "text": "",
+      "importance": 212,
+      "bbox": {
+        "x": 488.0,
+        "y": 966.390625,
+        "width": 194.0,
+        "height": 194.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1225,
+      "role": "link",
+      "text": "",
+      "importance": 203,
+      "bbox": {
+        "x": 286.0,
+        "y": 966.390625,
+        "width": 194.0,
+        "height": 194.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1160,
+      "role": "list",
+      "text": "Lindt Gourmet Truffles Chocolate Candy Truffles, Assorted Chocolate Truffles, Christmas Candy, 14.7 ",
+      "importance": 197,
+      "bbox": {
+        "x": 80.0,
+        "y": 966.390625,
+        "width": 3636.0,
+        "height": 390.390625
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1554,
+      "role": "li",
+      "text": "David's Cookies Butter Pecan Meltaways 907g David's Cookies Butter Pecan Meltaways 907g 4.2 out of 5",
+      "importance": 196,
+      "bbox": {
+        "x": 1498.0,
+        "y": 966.390625,
+        "width": 194.0,
+        "height": 390.390625
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1558,
+      "role": "div",
+      "text": "",
+      "importance": 195,
+      "bbox": {
+        "x": 1498.0,
+        "y": 966.390625,
+        "width": 194.0,
+        "height": 194.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1559,
+      "role": "img",
+      "text": "David's Cookies Butter Pecan Meltaways 907g",
+      "importance": 195,
+      "bbox": {
+        "x": 1498.0,
+        "y": 966.390625,
+        "width": 194.0,
+        "height": 194.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1164,
+      "role": "link",
+      "text": "",
+      "importance": 193,
+      "bbox": {
+        "x": 84.0,
+        "y": 966.390625,
+        "width": 194.0,
+        "height": 194.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1493,
+      "role": "li",
+      "text": "Ferrero Collection Chocolate Gift Box Grand Assortment, Hazelnut, Dark, Coconut, Almond, and Cappucc",
+      "importance": 193,
+      "bbox": {
+        "x": 1296.0,
+        "y": 966.390625,
+        "width": 194.0,
+        "height": 390.390625
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1497,
+      "role": "div",
+      "text": "",
+      "importance": 192,
+      "bbox": {
+        "x": 1296.0,
+        "y": 966.390625,
+        "width": 194.0,
+        "height": 194.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1498,
+      "role": "img",
+      "text": "Ferrero Collection Chocolate Gift Box Grand Assortment, Hazelnut, Dark, Coconut, Almond, and Cappuccino Holiday Box of Chocol",
+      "importance": 192,
+      "bbox": {
+        "x": 1296.0,
+        "y": 966.390625,
+        "width": 194.0,
+        "height": 194.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1432,
+      "role": "li",
+      "text": "Ferrero Rocher Premium Milk chocolate squares, Hazelnut & Caramel Filling, Individually Wrapped for ",
+      "importance": 187,
+      "bbox": {
+        "x": 1094.0,
+        "y": 966.390625,
+        "width": 194.0,
+        "height": 390.390625
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1436,
+      "role": "div",
+      "text": "",
+      "importance": 186,
+      "bbox": {
+        "x": 1094.0,
+        "y": 966.390625,
+        "width": 194.0,
+        "height": 194.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1437,
+      "role": "img",
+      "text": "Ferrero Rocher Premium Milk chocolate squares, Hazelnut & Caramel Filling, Individually Wrapped for Sharing, \u200b3.7 oz",
+      "importance": 186,
+      "bbox": {
+        "x": 1094.0,
+        "y": 966.390625,
+        "width": 194.0,
+        "height": 194.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    }
+  ],
+  "screenshot": null,
+  "screenshot_format": null,
+  "error": null,
+  "requires_license": null
+}

@@ -114,10 +114,11 @@ def create_demo_video(screenshots_dir: str, token_summary: Dict[str, Any], outpu
     """
     print(f"\nCreating video from screenshots in {screenshots_dir}...")
 
-    # Get all screenshots in order
+    # Get all screenshots in order (exclude annotated and overlay versions)
     screenshot_files = sorted([
         f for f in os.listdir(screenshots_dir)
         if f.endswith('.png') and 'scene' in f.lower()
+        and '_annotated' not in f and '_overlay' not in f
     ])
 
     if not screenshot_files:
@@ -151,11 +152,13 @@ def create_demo_video(screenshots_dir: str, token_summary: Dict[str, Any], outpu
             img_path = add_token_overlay(img_path, scene_tokens, screenshot_file)
 
         if is_add_to_cart_scene:
-            # Create panning effect for Add to Cart scene
-            clip = create_panning_clip(img_path, duration=5.0, scene_tokens=scene_tokens)
+            # Create panning effect for Add to Cart scene (longer duration)
+            clip = create_ken_burns_clip(img_path, duration=5.0, zoom_direction='in', pan_direction='down')
         else:
-            # Normal static clip (3 seconds)
-            clip = ImageClip(img_path, duration=3.0)
+            # Ken Burns effect for all other scenes (3 seconds)
+            # Alternate zoom direction for variety
+            zoom_dir = 'in' if i % 2 == 0 else 'out'
+            clip = create_ken_burns_clip(img_path, duration=3.0, zoom_direction=zoom_dir, pan_direction='right' if i % 2 == 0 else 'left')
 
         clips.append(clip)
 
@@ -256,6 +259,91 @@ def create_panning_clip(image_path: str, duration: float = 5.0, scene_tokens: in
     # This crops the image to show only the video_height portion
     final_clip = CompositeVideoClip(
         [panned_clip],
+        size=(video_width, video_height)
+    ).set_duration(duration)
+
+    return final_clip
+
+
+def create_ken_burns_clip(image_path: str, duration: float = 3.0, zoom_direction: str = 'in', pan_direction: str = 'right'):
+    """
+    Create a Ken Burns effect clip (slow zoom + pan)
+
+    Args:
+        image_path: Path to the screenshot
+        duration: Duration of the clip in seconds
+        zoom_direction: 'in' for zoom in, 'out' for zoom out
+        pan_direction: 'left', 'right', 'up', 'down'
+
+    Returns:
+        VideoClip with Ken Burns effect
+    """
+    from PIL import Image
+
+    # Load image to get dimensions
+    img = Image.open(image_path)
+    img_width, img_height = img.size
+
+    # Video output dimensions (standard HD)
+    video_width = 1920
+    video_height = 1080
+
+    # Zoom range (start and end scale)
+    if zoom_direction == 'in':
+        scale_start = 1.0  # Start at normal size
+        scale_end = 1.15   # End zoomed in by 15%
+    else:
+        scale_start = 1.15  # Start zoomed in
+        scale_end = 1.0     # End at normal size
+
+    # Pan range based on direction
+    pan_amount = 50  # pixels
+
+    # Use resize and position approach for Ken Burns effect
+    base_clip = ImageClip(image_path)
+
+    def resize_func(t):
+        """Progressive resize"""
+        progress = t / duration
+        eased = 3 * (1 - progress)**2 * progress * 0.25 + \
+                3 * (1 - progress) * progress**2 * 0.75 + \
+                progress**3
+        current_scale = scale_start + (scale_end - scale_start) * eased
+        return current_scale
+
+    def position_func(t):
+        """Progressive position change"""
+        progress = t / duration
+        eased = 3 * (1 - progress)**2 * progress * 0.25 + \
+                3 * (1 - progress) * progress**2 * 0.75 + \
+                progress**3
+
+        # Calculate pan offset
+        if pan_direction == 'right':
+            pan_x = -int(pan_amount * eased)  # Negative because image moves opposite
+            pan_y = 0
+        elif pan_direction == 'left':
+            pan_x = int(pan_amount * eased)
+            pan_y = 0
+        elif pan_direction == 'down':
+            pan_x = 0
+            pan_y = -int(pan_amount * eased)
+        elif pan_direction == 'up':
+            pan_x = 0
+            pan_y = int(pan_amount * eased)
+        else:
+            pan_x = pan_y = 0
+
+        return (pan_x, pan_y)
+
+    # Apply progressive resize and position
+    clip = base_clip.resize(lambda t: resize_func(t))
+    clip = clip.set_position(lambda t: position_func(t))
+    clip = clip.set_duration(duration)
+
+    # Composite to fixed size
+    final_clip = CompositeVideoClip(
+        [clip],
         size=(video_width, video_height)
     ).set_duration(duration)
 

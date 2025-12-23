@@ -1,0 +1,159 @@
+======================================================================
+DEMO 1: Sentience SDK + LLM Agent - Amazon Shopping
+======================================================================
+
+[Scene 1] Navigating to Amazon.com...
+Screenshot saved: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/demo1_sdk_llm/screenshots/20251222_175149/sdk_scene1_homepage.png
+Visualizing API-filtered elements...
+  Saved annotated screenshot: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/demo1_sdk_llm/screenshots/20251222_175149/sdk_scene1_homepage_annotated.png
+Applying Scene 1 element filtering...
+  Element filtering: 50 -> 4 elements (excluded roles: ['img', 'button', 'link'])
+
+======================================================================
+Scene: Scene 1: Find Search Bar
+======================================================================
+  Token usage: 956 (prompt: 863, completion: 93)
+
+LLM Decision:
+{
+  "reasoning": "Selected based on role='searchbox', placeholder text indicating search functionality, and position in the viewport and not occluded.",
+  "element_id": 168,
+  "bbox": {
+    "x": 403.765625,
+    "y": 11.0,
+    "width": 1043.265625,
+    "height": 38.0
+  },
+  "action": "click"
+}
+
+Clicking on search bar at bbox: {'x': 403.765625, 'y': 11.0, 'width': 1043.265625, 'height': 38.0}
+
+[Scene 2] Typing search query: 'Christmas gift'
+Screenshot saved: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/demo1_sdk_llm/screenshots/20251222_175149/sdk_scene2_typing.png
+Pressing Enter...
+
+[Scene 3] Analyzing search results...
+Screenshot saved: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/demo1_sdk_llm/screenshots/20251222_175149/sdk_scene3_search_results.png
+Visualizing API-filtered elements...
+  Saved annotated screenshot: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/demo1_sdk_llm/screenshots/20251222_175149/sdk_scene3_search_results_annotated.png
+Applying Scene 3 element filtering...
+  Element filtering: 50 -> 37 elements (excluded roles: ['searchbox', 'button'])
+
+======================================================================
+Scene: Scene 3: Select Product
+======================================================================
+  Token usage: 5875 (prompt: 5745, completion: 130)
+
+LLM Decision:
+{
+  "reasoning": "Selected based on visibility, clickable status, position in the main content area, and highest importance score among visible product links.",
+  "product_title": "Ferrero Collection, Premium Assorted, Hazelnut, Dark Chocolate and Coconut, 24 Count Holiday Gift Box, 9.1 oz",
+  "element_id": 917,
+  "bbox": {
+    "x": 675.671875,
+    "y": 870.703125,
+    "width": 273.328125,
+    "height": 72.0
+  },
+  "action": "click"
+}
+
+Clicking on product: Ferrero Collection, Premium Assorted, Hazelnut, Dark Chocolate and Coconut, 24 Count Holiday Gift Box, 9.1 oz
+Bbox: {'x': 675.671875, 'y': 870.703125, 'width': 273.328125, 'height': 72.0}
+Waiting for product page to load...
+
+[Scene 4] Finding 'Add to Cart' button...
+Screenshot saved: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/demo1_sdk_llm/screenshots/20251222_175149/sdk_scene4_product_details.png
+Visualizing API-filtered elements...
+  Saved annotated screenshot: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/demo1_sdk_llm/screenshots/20251222_175149/sdk_scene4_product_details_annotated.png
+Applying Scene 4 element filtering...
+  Element filtering: 50 -> 33 elements (excluded roles: ['searchbox', 'link'])
+
+======================================================================
+Scene: Scene 4: Add to Cart
+======================================================================
+  Token usage: 5495 (prompt: 5386, completion: 109)
+
+LLM Decision:
+{
+  "reasoning": "Identified based on role='button', text containing 'Add to Cart', being in viewport and not occluded, and clickable attribute set to true.",
+  "button_text": "Add to cart",
+  "element_id": 1051,
+  "bbox": {
+    "x": 1468.0,
+    "y": 868.5625,
+    "width": 204.0,
+    "height": 30.0
+  },
+  "action": "click"
+}
+
+Clicking 'Add to Cart' button: Add to cart
+Bbox: {'x': 1468.0, 'y': 868.5625, 'width': 204.0, 'height': 30.0}
+
+[Scene 5] Verifying cart addition...
+Screenshot saved: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/demo1_sdk_llm/screenshots/20251222_175149/sdk_scene5_confirmation.png
+Visualizing API-filtered elements...
+  Saved annotated screenshot: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/demo1_sdk_llm/screenshots/20251222_175149/sdk_scene5_confirmation_annotated.png
+
+======================================================================
+Scene: Scene 5: Verify Success
+======================================================================
+  Token usage: 7630 (prompt: 7595, completion: 35)
+
+LLM Decision:
+{
+  "success": true,
+  "reasoning": "Confirmation text indicating item addition to cart was found.",
+  "confirmation_text": "1 item in cart"
+}
+
+✅ SUCCESS: Confirmation text indicating item addition to cart was found.
+Confirmation: 1 item in cart
+
+======================================================================
+Token Usage Summary: Demo 1: SDK + LLM
+======================================================================
+Scene 1: Find Search Bar                      956 tokens
+Scene 3: Select Product                      5875 tokens
+Scene 4: Add to Cart                         5495 tokens
+Scene 5: Verify Success                      7630 tokens
+======================================================================
+Total Prompt Tokens:                        19589
+Total Completion Tokens:                      367
+TOTAL TOKENS:                               19956
+Average per Scene:                         4989.0
+======================================================================
+
+Token summary saved to: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/demo1_sdk_llm/screenshots/20251222_175149/token_summary.json
+
+======================================================================
+Generating video with token overlay...
+======================================================================
+
+Creating video from screenshots in /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/demo1_sdk_llm/screenshots/20251222_175149...
+Found 9 screenshots
+  Processing sdk_scene1_homepage.png...
+    Adding token overlay (956 tokens)...
+  Processing sdk_scene1_homepage_annotated.png...
+  Processing sdk_scene2_typing.png...
+    Adding token overlay (5875 tokens)...
+  Processing sdk_scene3_search_results.png...
+    Adding token overlay (5495 tokens)...
+  Processing sdk_scene3_search_results_annotated.png...
+    Adding token overlay (7630 tokens)...
+  Processing sdk_scene4_product_details.png...
+  Processing sdk_scene4_product_details_annotated.png...
+  Processing sdk_scene5_confirmation.png...
+  Processing sdk_scene5_confirmation_annotated.png...
+  Creating summary screen...
+  Concatenating clips...
+  Writing video to /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/demo1_sdk_llm/video/demo1_sdk_final.mp4...
+
+✅ Video created: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/demo1_sdk_llm/video/demo1_sdk_final.mp4
+   Total duration: 38.0s
+   Scenes: 10
+
+======================================================================
+DEMO 1 COMPLETE!

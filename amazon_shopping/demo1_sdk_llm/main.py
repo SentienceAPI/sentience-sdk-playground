@@ -19,6 +19,34 @@ from llm_agent import LLMAgent
 from token_tracker import TokenTracker
 # Use simplified video generator (no ImageMagick/TextClip needed)
 from video_generator_simple import create_demo_video
+from bbox_visualizer import visualize_api_elements
+
+
+def filter_elements(snapshot_data, exclude_roles):
+    """
+    Filter out elements with specific roles to reduce token usage
+
+    Args:
+        snapshot_data: The full snapshot data dictionary
+        exclude_roles: List of role names to filter out (e.g., ["img", "button"])
+
+    Returns:
+        Filtered snapshot data with reduced elements array
+    """
+    filtered_data = snapshot_data.copy()
+    original_count = len(snapshot_data.get('elements', []))
+
+    filtered_elements = [
+        elem for elem in snapshot_data.get('elements', [])
+        if elem.get('role') not in exclude_roles
+    ]
+
+    filtered_data['elements'] = filtered_elements
+    filtered_count = len(filtered_elements)
+
+    print(f"  Element filtering: {original_count} -> {filtered_count} elements (excluded roles: {exclude_roles})")
+
+    return filtered_data
 
 
 def main():
@@ -35,9 +63,13 @@ def main():
     tracker = TokenTracker("Demo 1: SDK + LLM")
     agent = LLMAgent(api_key=openai_api_key, tracker=tracker)
 
-    # Screenshot directory
-    screenshots_dir = os.path.join(os.path.dirname(__file__), 'screenshots')
+    # Screenshot directory with timestamp
+    from datetime import datetime
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    base_screenshots_dir = os.path.join(os.path.dirname(__file__), 'screenshots')
+    screenshots_dir = os.path.join(base_screenshots_dir, timestamp)
     os.makedirs(screenshots_dir, exist_ok=True)
+    print(f"Screenshots will be saved to: {screenshots_dir}")
 
     print("\n" + "="*70)
     print("DEMO 1: Sentience SDK + LLM Agent - Amazon Shopping")
@@ -67,6 +99,14 @@ def main():
         with open(os.path.join(screenshots_dir, "sdk_scene1_data.json"), 'w') as f:
             json.dump(snapshot_data, f, indent=2)
 
+        # Visualize API elements with bounding boxes
+        print("Visualizing API-filtered elements...")
+        visualize_api_elements(screenshot_path, snapshot_data)
+
+        # Scene 1 optimization: Filter out img, button, link - we only need search input
+        print("Applying Scene 1 element filtering...")
+        filtered_data = filter_elements(snapshot_data, exclude_roles=["img", "button", "link"])
+
         # Ask LLM to find search bar
         prompt = """You are an AI agent controlling a web browser to shop on Amazon.
 
@@ -87,7 +127,7 @@ Response Format:
   "action": "click"
 }"""
 
-        result = agent.analyze_snapshot(snapshot_data, prompt, "Scene 1: Find Search Bar")
+        result = agent.analyze_snapshot(filtered_data, prompt, "Scene 1: Find Search Bar")
 
         # Click on search bar
         print(f"\nClicking on search bar at bbox: {result['bbox']}")
@@ -129,6 +169,14 @@ Response Format:
         with open(os.path.join(screenshots_dir, "sdk_scene3_data.json"), 'w') as f:
             json.dump(snapshot_data, f, indent=2)
 
+        # Visualize API elements with bounding boxes
+        print("Visualizing API-filtered elements...")
+        visualize_api_elements(screenshot_path, snapshot_data)
+
+        # Scene 3 optimization: Filter out searchbox, button - we only need product links
+        print("Applying Scene 3 element filtering...")
+        filtered_data = filter_elements(snapshot_data, exclude_roles=["searchbox", "button"])
+
         # Ask LLM to select a product
         prompt = """You are an AI agent controlling a web browser to shop on Amazon.
 
@@ -155,7 +203,7 @@ Response Format:
   "action": "click"
 }"""
 
-        result = agent.analyze_snapshot(snapshot_data, prompt, "Scene 3: Select Product")
+        result = agent.analyze_snapshot(filtered_data, prompt, "Scene 3: Select Product")
 
         # Click on product
         print(f"\nClicking on product: {result.get('product_title', 'Unknown')}")
@@ -183,6 +231,14 @@ Response Format:
         with open(os.path.join(screenshots_dir, "sdk_scene4_data.json"), 'w') as f:
             json.dump(snapshot_data, f, indent=2)
 
+        # Visualize API elements with bounding boxes
+        print("Visualizing API-filtered elements...")
+        visualize_api_elements(screenshot_path, snapshot_data)
+
+        # Scene 4 optimization: Filter out searchbox, link - we only need buttons
+        print("Applying Scene 4 element filtering...")
+        filtered_data = filter_elements(snapshot_data, exclude_roles=["searchbox", "link"])
+
         # Ask LLM to find Add to Cart button
         prompt = """You are an AI agent controlling a web browser to shop on Amazon.
 
@@ -206,7 +262,7 @@ Response Format:
   "action": "click"
 }"""
 
-        result = agent.analyze_snapshot(snapshot_data, prompt, "Scene 4: Add to Cart")
+        result = agent.analyze_snapshot(filtered_data, prompt, "Scene 4: Add to Cart")
 
         # Click Add to Cart
         print(f"\nClicking 'Add to Cart' button: {result.get('button_text', 'Unknown')}")
@@ -231,6 +287,10 @@ Response Format:
         # Save snapshot JSON
         with open(os.path.join(screenshots_dir, "sdk_scene5_data.json"), 'w') as f:
             json.dump(snapshot_data, f, indent=2)
+
+        # Visualize API elements with bounding boxes
+        print("Visualizing API-filtered elements...")
+        visualize_api_elements(screenshot_path, snapshot_data)
 
         # Ask LLM to verify
         prompt = """You are an AI agent controlling a web browser to shop on Amazon.

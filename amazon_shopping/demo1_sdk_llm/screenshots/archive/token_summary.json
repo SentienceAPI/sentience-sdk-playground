@@ -1,0 +1,33 @@
+{
+  "demo_name": "Demo 1: SDK + LLM",
+  "total_prompt_tokens": 30221,
+  "total_completion_tokens": 416,
+  "total_tokens": 30637,
+  "interactions": [
+    {
+      "scene": "Scene 1: Find Search Bar",
+      "prompt_tokens": 7244,
+      "completion_tokens": 93,
+      "total": 7337
+    },
+    {
+      "scene": "Scene 3: Select Product",
+      "prompt_tokens": 7613,
+      "completion_tokens": 189,
+      "total": 7802
+    },
+    {
+      "scene": "Scene 4: Add to Cart",
+      "prompt_tokens": 7801,
+      "completion_tokens": 95,
+      "total": 7896
+    },
+    {
+      "scene": "Scene 5: Verify Success",
+      "prompt_tokens": 7563,
+      "completion_tokens": 39,
+      "total": 7602
+    }
+  ],
+  "average_per_scene": 7659.25
+}

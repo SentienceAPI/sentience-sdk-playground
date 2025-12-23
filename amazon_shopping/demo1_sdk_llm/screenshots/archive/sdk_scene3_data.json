@@ -1,0 +1,1015 @@
+{
+  "status": "success",
+  "timestamp": "2025-12-23T01:29:23.559712930+00:00",
+  "url": "https://www.amazon.com/s?k=Christmas+gift&crid=BIZNC5ZPC6V8&sprefix=christmas+gift%2Caps%2C169&ref=nb_sb_noss_2",
+  "viewport": {
+    "width": 1920.0,
+    "height": 9842.0
+  },
+  "elements": [
+    {
+      "id": 85,
+      "role": "button",
+      "text": "Delivering to Redmond 98052 Update location",
+      "importance": 501,
+      "bbox": {
+        "x": 134.0,
+        "y": 5.0,
+        "width": 199.640625,
+        "height": 50.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 79,
+      "role": "link",
+      "text": "Amazon",
+      "importance": 276,
+      "bbox": {
+        "x": 16.0,
+        "y": 5.0,
+        "width": 113.0,
+        "height": 50.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 199,
+      "role": "link",
+      "text": "0 items in cart",
+      "importance": 265,
+      "bbox": {
+        "x": 1821.0,
+        "y": 5.0,
+        "width": 84.0,
+        "height": 50.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 182,
+      "role": "link",
+      "text": "Choose a language for shopping in Amazon United States. The current selection is English (EN).\n",
+      "importance": 249,
+      "bbox": {
+        "x": 1531.140625,
+        "y": 6.0,
+        "width": 45.375,
+        "height": 50.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 178,
+      "role": "button",
+      "text": "Go",
+      "importance": 445,
+      "bbox": {
+        "x": 1455.140625,
+        "y": 10.0,
+        "width": 45.0,
+        "height": 42.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 177,
+      "role": "span",
+      "text": "Go",
+      "importance": 195,
+      "bbox": {
+        "x": 1455.140625,
+        "y": 10.0,
+        "width": 45.0,
+        "height": 42.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 173,
+      "role": "searchbox",
+      "text": "Search Amazon",
+      "importance": 352,
+      "bbox": {
+        "x": 408.640625,
+        "y": 11.0,
+        "width": 1046.5,
+        "height": 38.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 9
+    },
+    {
+      "id": 477,
+      "role": "button",
+      "text": "Open All Categories Menu",
+      "importance": 649,
+      "bbox": {
+        "x": 15.0,
+        "y": 60.0,
+        "width": 58.421875,
+        "height": 39.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 624,
+      "role": "span",
+      "text": "Oh! Nuts Dried Fruit and Nut Gift Basket - XL 18 Variety Gourmet Assorted Fruits and Nuts Gift Baske",
+      "importance": 246,
+      "bbox": {
+        "x": 367.34375,
+        "y": 163.0,
+        "width": 1488.65625,
+        "height": 9842.984375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 647,
+      "role": "link",
+      "text": "",
+      "importance": 208,
+      "bbox": {
+        "x": 367.34375,
+        "y": 163.0,
+        "width": 550.0,
+        "height": 309.375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 5
+    },
+    {
+      "id": 7287,
+      "role": "span",
+      "text": "Popular Shopping Ideas Gift Cards Mugs Food & Candy Blankets See more Eligible for Free Shipping Fre",
+      "importance": 192,
+      "bbox": {
+        "x": 68.015625,
+        "y": 163.0,
+        "width": 291.328125,
+        "height": 3816.6875
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 690,
+      "role": "link",
+      "text": "",
+      "importance": 208,
+      "bbox": {
+        "x": 932.34375,
+        "y": 178.0,
+        "width": 439.640625,
+        "height": 170.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 5
+    },
+    {
+      "id": 7333,
+      "role": "button",
+      "text": "See more",
+      "importance": 649,
+      "bbox": {
+        "x": 68.015625,
+        "y": 287.078125,
+        "width": 74.953125,
+        "height": 24.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 699,
+      "role": "link",
+      "text": "Oh! Nuts Dried Fruit and Nut Gift Basket - XL 18 Variety Gourmet Assorted Fruits and Nuts Gift Baske",
+      "importance": 177,
+      "bbox": {
+        "x": 932.34375,
+        "y": 356.0,
+        "width": 439.640625,
+        "height": 64.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 5
+    },
+    {
+      "id": 7345,
+      "role": "link",
+      "text": "Apply Free Shipping by Amazon filter to narrow results",
+      "importance": 341,
+      "bbox": {
+        "x": 68.015625,
+        "y": 371.09375,
+        "width": 279.328125,
+        "height": 63.046875
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 667,
+      "role": "button",
+      "text": "Pause Sponsored Video",
+      "importance": 646,
+      "bbox": {
+        "x": 875.34375,
+        "y": 394.375,
+        "width": 34.0,
+        "height": 37.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 10
+    },
+    {
+      "id": 701,
+      "role": "link",
+      "text": "Rated 4.5 out of 5 stars from 2,870 reviews",
+      "importance": 313,
+      "bbox": {
+        "x": 932.34375,
+        "y": 424.0,
+        "width": 439.640625,
+        "height": 24.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 5
+    },
+    {
+      "id": 673,
+      "role": "button",
+      "text": "Mute Sponsored Video",
+      "importance": 646,
+      "bbox": {
+        "x": 875.34375,
+        "y": 431.375,
+        "width": 34.0,
+        "height": 37.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 10
+    },
+    {
+      "id": 730,
+      "role": "button",
+      "text": "Leave feedback on Sponsored ad",
+      "importance": 651,
+      "bbox": {
+        "x": 1785.90625,
+        "y": 476.375,
+        "width": 70.078125,
+        "height": 24.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 7362,
+      "role": "link",
+      "text": "Apply Get It by Tomorrow filter to narrow results",
+      "importance": 256,
+      "bbox": {
+        "x": 92.015625,
+        "y": 479.15625,
+        "width": 123.046875,
+        "height": 17.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 754,
+      "role": "span",
+      "text": "Amazon's Choice",
+      "importance": 254,
+      "bbox": {
+        "x": 368.34375,
+        "y": 565.375,
+        "width": 289.328125,
+        "height": 29.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 895,
+      "role": "span",
+      "text": "Best Seller",
+      "importance": 200,
+      "bbox": {
+        "x": 671.671875,
+        "y": 569.375,
+        "width": 65.484375,
+        "height": 20.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1817,
+      "role": "span",
+      "text": "Best Seller",
+      "importance": 199,
+      "bbox": {
+        "x": 1569.65625,
+        "y": 569.375,
+        "width": 65.484375,
+        "height": 20.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": false
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 899,
+      "role": "link",
+      "text": "",
+      "importance": 217,
+      "bbox": {
+        "x": 675.671875,
+        "y": 589.375,
+        "width": 273.328125,
+        "height": 273.328125
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1029,
+      "role": "link",
+      "text": "",
+      "importance": 217,
+      "bbox": {
+        "x": 975.0,
+        "y": 589.375,
+        "width": 273.328125,
+        "height": 273.328125
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 781,
+      "role": "link",
+      "text": "",
+      "importance": 216,
+      "bbox": {
+        "x": 376.34375,
+        "y": 589.375,
+        "width": 273.328125,
+        "height": 273.328125
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1705,
+      "role": "link",
+      "text": "",
+      "importance": 216,
+      "bbox": {
+        "x": 1274.328125,
+        "y": 589.375,
+        "width": 273.328125,
+        "height": 273.328125
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1821,
+      "role": "link",
+      "text": "",
+      "importance": 216,
+      "bbox": {
+        "x": 1573.65625,
+        "y": 589.375,
+        "width": 273.328125,
+        "height": 273.328125
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 7442,
+      "role": "link",
+      "text": "Apply 4 Stars & Up filter to narrow results",
+      "importance": 264,
+      "bbox": {
+        "x": 68.015625,
+        "y": 855.328125,
+        "width": 127.203125,
+        "height": 17.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 787,
+      "role": "h2",
+      "text": "Ferrero Collection, Premium Assorted, Hazelnut, Dark Chocolate and Coconut, 24 Count Holiday Gift Box, 9.1 oz",
+      "importance": 310,
+      "bbox": {
+        "x": 376.34375,
+        "y": 870.703125,
+        "width": 273.328125,
+        "height": 72.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 905,
+      "role": "h2",
+      "text": "Royal Dansk Danish Butter Cookies, Premium Assorted Cookies in Gift Tin, Great for Sharing and Gifting, 12 oz",
+      "importance": 310,
+      "bbox": {
+        "x": 675.671875,
+        "y": 870.703125,
+        "width": 273.328125,
+        "height": 72.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1035,
+      "role": "h2",
+      "text": "Ferrero Collection, 12 Count, Premium Gourmet Assorted Hazelnut Milk Chocolate, Dark Chocolate and Coconut, 4.6 oz",
+      "importance": 310,
+      "bbox": {
+        "x": 975.0,
+        "y": 870.703125,
+        "width": 273.328125,
+        "height": 72.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1827,
+      "role": "h2",
+      "text": "Holiday Christmas Nuts Gift Basket - Assortment of Sweet & Roasted Salted Gourmet Nuts - Assorted Food Gift Box for Christmas, Holiday, Family, Sympathy, Men & Women.",
+      "importance": 309,
+      "bbox": {
+        "x": 1573.65625,
+        "y": 870.703125,
+        "width": 273.328125,
+        "height": 72.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1711,
+      "role": "h2",
+      "text": "A Gift Inside Chocolate, Caramel and Crunch Grand Gift Basket",
+      "importance": 284,
+      "bbox": {
+        "x": 1274.328125,
+        "y": 870.703125,
+        "width": 273.328125,
+        "height": 48.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 7454,
+      "role": "link",
+      "text": "Apply New filter to narrow results",
+      "importance": 240,
+      "bbox": {
+        "x": 92.015625,
+        "y": 922.34375,
+        "width": 28.171875,
+        "height": 17.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 7464,
+      "role": "link",
+      "text": "Apply Used filter to narrow results",
+      "importance": 243,
+      "bbox": {
+        "x": 92.015625,
+        "y": 946.359375,
+        "width": 31.609375,
+        "height": 17.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1836,
+      "role": "button",
+      "text": "4.4 out of 5 stars, rating details",
+      "importance": 663,
+      "bbox": {
+        "x": 1590.703125,
+        "y": 978.703125,
+        "width": 75.0,
+        "height": 24.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1044,
+      "role": "link",
+      "text": "Options: 7 sizes, 5 flavors",
+      "importance": 265,
+      "bbox": {
+        "x": 1021.265625,
+        "y": 982.703125,
+        "width": 96.421875,
+        "height": 19.59375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 800,
+      "role": "link",
+      "text": "Options: 2 sizes",
+      "importance": 250,
+      "bbox": {
+        "x": 422.609375,
+        "y": 982.703125,
+        "width": 43.546875,
+        "height": 19.59375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1842,
+      "role": "link",
+      "text": "12,221 ratings",
+      "importance": 245,
+      "bbox": {
+        "x": 1668.859375,
+        "y": 982.703125,
+        "width": 38.96875,
+        "height": 15.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1724,
+      "role": "link",
+      "text": "Options: 6 flavors",
+      "importance": 254,
+      "bbox": {
+        "x": 1320.59375,
+        "y": 990.703125,
+        "width": 54.765625,
+        "height": 19.59375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1052,
+      "role": "button",
+      "text": "4.7 out of 5 stars, rating details",
+      "importance": 665,
+      "bbox": {
+        "x": 992.046875,
+        "y": 1006.296875,
+        "width": 75.0,
+        "height": 24.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 808,
+      "role": "button",
+      "text": "4.7 out of 5 stars, rating details",
+      "importance": 664,
+      "bbox": {
+        "x": 393.390625,
+        "y": 1006.296875,
+        "width": 75.0,
+        "height": 24.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1058,
+      "role": "link",
+      "text": "11,433 ratings",
+      "importance": 247,
+      "bbox": {
+        "x": 1070.203125,
+        "y": 1010.296875,
+        "width": 38.96875,
+        "height": 15.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 814,
+      "role": "link",
+      "text": "30,831 ratings",
+      "importance": 246,
+      "bbox": {
+        "x": 471.546875,
+        "y": 1010.296875,
+        "width": 38.96875,
+        "height": 15.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1732,
+      "role": "button",
+      "text": "4.6 out of 5 stars, rating details",
+      "importance": 664,
+      "bbox": {
+        "x": 1291.375,
+        "y": 1014.296875,
+        "width": 75.0,
+        "height": 24.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 918,
+      "role": "link",
+      "text": "Options: 4 sizes",
+      "importance": 252,
+      "bbox": {
+        "x": 721.9375,
+        "y": 1014.703125,
+        "width": 43.546875,
+        "height": 19.59375
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 1738,
+      "role": "link",
+      "text": "15,608 ratings",
+      "importance": 246,
+      "bbox": {
+        "x": 1369.53125,
+        "y": 1018.296875,
+        "width": 38.96875,
+        "height": 15.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 926,
+      "role": "button",
+      "text": "4.6 out of 5 stars, rating details",
+      "importance": 665,
+      "bbox": {
+        "x": 692.71875,
+        "y": 1038.296875,
+        "width": 75.0,
+        "height": 24.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    },
+    {
+      "id": 932,
+      "role": "link",
+      "text": "100,762 ratings",
+      "importance": 249,
+      "bbox": {
+        "x": 770.875,
+        "y": 1042.296875,
+        "width": 46.0,
+        "height": 15.0
+      },
+      "visual_cues": {
+        "is_primary": false,
+        "background_color_name": "gray",
+        "is_clickable": true
+      },
+      "in_viewport": true,
+      "is_occluded": false,
+      "z_index": 0
+    }
+  ],
+  "screenshot": null,
+  "screenshot_format": null,
+  "error": null,
+  "requires_license": null
+}
