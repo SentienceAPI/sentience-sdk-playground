@@ -121,12 +121,12 @@ cd amazon_shopping
 ## 🎬 Demo Videos
 
 ### Google Search Demo (SDK + GPT-4 Turbo)
-<video src="https://github.com/SentienceAPI/sentience-sdk-playground/raw/main/google_search/demo1_sdk/video/demo1_google_search_20251222_183516.mp4" controls width="100%"></video>
+<video src="google_search/demo1_sdk/video/demo1_google_search_20251222_183516.mp4" controls width="100%"></video>
 
 **Features**: Search for "visiting japan" and click first non-ad result (2,636 tokens, 100% success)
 
 ### Amazon Shopping Demo (SDK + GPT-4 Turbo)
-<video src="https://github.com/SentienceAPI/sentience-sdk-playground/raw/main/amazon_shopping/demo1_sdk_llm/video/demo1_sdk_final.mp4" controls width="100%"></video>
+<video src="amazon_shopping/demo1_sdk_llm/video/demo1_sdk_final.mp4" controls width="100%"></video>
 
 **Features**: Search for "Christmas gift", select product, add to cart (19,956 tokens, 100% success)
 
@@ -266,10 +266,10 @@ Edit `filter_elements()` in each demo's `main.py` to customize:
 
 ## 📚 Documentation
 
-- [Google Search Demo Plan](docs/GOOGLE_SEARCH_DEMO_PLAN.md)
-- [Amazon Shopping Demo Plan](docs/LLM_AGENT_AMAZON_SHOPPING_DEMO_PLAN.md)
+- [Google Search Demo Plan](google_search/GOOGLE_SEARCH_DEMO_PLAN.md)
+- [Amazon Shopping Demo Plan](amazon_shopping/AMAZON_SHOPPING_GUIDE.md)
 - [Google Comparison Report](google_search/GOOGLE_SEARCH_COMPARISON_REPORT.md)
-- [Amazon Comparison Report](docs/DEMO_COMPARISON_REPORT.md)
+- [Amazon Comparison Report](amazon_shopping/Amazon_Shopping_DEMO_COMPARISON_REPORT.md)
 - [Setup Guide](docs/SETUP.md)
 - [Quickstart Guide](docs/QUICKSTART.md)
 
@@ -334,7 +334,7 @@ This project is licensed under the MIT License - see the [LICENSE](../LICENSE) f
 ## 🙏 Credits
 
 Built with:
-- [Sentience SDK](https://github.com/SentienceAPI/sdk-python) - Semantic web automation
+- [Sentience SDK Python](https://github.com/SentienceAPI/sentience-python) - Semantic web automation
 - [OpenAI GPT-4](https://platform.openai.com/) - Language model
 - [Playwright](https://playwright.dev/) - Browser automation
 - [MoviePy](https://zulko.github.io/moviepy/) - Video generation
