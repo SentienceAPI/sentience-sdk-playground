@@ -6,6 +6,21 @@ venv/
 env/
 
 # Screenshots and videos (generated at runtime)
+# Amazon Shopping demos
+amazon_shopping/demo1_sdk_llm/screenshots/
+amazon_shopping/demo1_sdk_llm/video/
+amazon_shopping/demo2_vision_llm/screenshots/
+amazon_shopping/demo2_vision_llm/video/
+amazon_shopping/comparison_video.mp4
+
+# Google Search demos
+google_search/demo1_sdk/screenshots/
+google_search/demo1_sdk/video/
+google_search/demo2_vision/screenshots/
+google_search/demo2_vision/video/
+google_search/comparison_video.mp4
+
+# Legacy paths (old structure)
 demo1_sdk_llm/screenshots/
 demo1_sdk_llm/video/
 demo2_vision_llm/screenshots/

@@ -1,0 +1,131 @@
+======================================================================
+DEMO 2: GPT-4o Vision + Playwright - Google Search
+======================================================================
+
+[Scene 1] Navigating to Google.com...
+Screenshot saved: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo2_vision/screenshots/20251222_193420/vision_scene1_google_home.png
+
+======================================================================
+Scene: Scene 1: Find Search Box
+======================================================================
+Analyzing screenshot: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo2_vision/screenshots/20251222_193420/vision_scene1_google_home.png
+  Token usage: 1397 (prompt: 1330, completion: 67)
+
+Vision LLM Decision:
+{
+  "reasoning": "The search input field is located below the Google logo and is centered horizontally on the page.",
+  "element_description": "Rectangular search input field with rounded corners and icons inside.",
+  "coordinates": {
+    "x": 960,
+    "y": 540
+  },
+  "confidence": "high"
+}
+
+Clicking on search box at coordinates: (960, 540)
+
+[Scene 2] Typing search query: 'visiting japan'
+Screenshot saved: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo2_vision/screenshots/20251222_193420/vision_scene2_typing.png
+Pressing Enter...
+
+[Scene 3] Analyzing search results...
+Screenshot saved: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo2_vision/screenshots/20251222_193420/vision_scene3_search_results.png
+
+======================================================================
+Scene: Scene 3: Select Search Result
+======================================================================
+Analyzing screenshot: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo2_vision/screenshots/20251222_193420/vision_scene3_search_results.png
+  Token usage: 1399 (prompt: 1387, completion: 12)
+
+❌ ERROR: Vision LLM returned empty response.
+Finish reason: stop
+Refusal: I'm sorry, but I can't assist with that request.
+
+Full response: ChatCompletion(id='chatcmpl-CpnSNtExpTkSgHBBcOydHYru6dn0j', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content=None, refusal="I'm sorry, but I can't assist with that request.", role='assistant', annotations=[], audio=None, function_call=None, tool_calls=None))], created=1766460875, model='gpt-4o-2024-08-06', object='chat.completion', service_tier='default', system_fingerprint='fp_a0e9480a2f', usage=CompletionUsage(completion_tokens=12, prompt_tokens=1387, total_tokens=1399, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0)))
+
+❌ ERROR: Vision LLM could not find search result. Response: {'error': "Vision LLM returned empty response.\nFinish reason: stop\nRefusal: I'm sorry, but I can't assist with that request.\n", 'coordinates': None, 'reasoning': 'LLM returned empty response'}
+LLM Error: Vision LLM returned empty response.
+Finish reason: stop
+Refusal: I'm sorry, but I can't assist with that request.
+
+Traceback (most recent call last):
+  File "/Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo2_vision/main.py", line 220, in <module>
+    main()
+  File "/Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo2_vision/main.py", line 161, in main
+    raise Exception("Could not find search result coordinates")
+Exception: Could not find search result coordinates
+
+======================================================================
+Demo 2 finished. Check demo2_vision/screenshots/ for results.
+======================================================================
+
+
+
+
+
+
+
+Running Demo 2: Vision + LLM - Google Search
+======================================================================
+Screenshots will be saved to: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo2_vision/screenshots/20251222_194155
+
+======================================================================
+DEMO 2: GPT-4o Vision + Playwright - Google Search
+======================================================================
+
+[Scene 1] Navigating to Google.com...
+Screenshot saved: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo2_vision/screenshots/20251222_194155/vision_scene1_google_home.png
+
+======================================================================
+Scene: Scene 1: Find Search Box
+======================================================================
+Analyzing screenshot: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo2_vision/screenshots/20251222_194155/vision_scene1_google_home.png
+  Token usage: 1400 (prompt: 1330, completion: 70)
+
+Vision LLM Decision:
+{
+  "reasoning": "The search input field is typically located below the Google logo and is centered horizontally on the page.",
+  "element_description": "Rectangular search input field with rounded corners located below the Google logo.",
+  "coordinates": {
+    "x": 960,
+    "y": 540
+  },
+  "confidence": "high"
+}
+
+Clicking on search box at coordinates: (960, 540)
+
+[Scene 2] Typing search query: 'visiting japan'
+Screenshot saved: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo2_vision/screenshots/20251222_194155/vision_scene2_typing.png
+Pressing Enter...
+
+[Scene 3] Analyzing search results...
+Screenshot saved: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo2_vision/screenshots/20251222_194155/vision_scene3_search_results.png
+
+======================================================================
+Scene: Scene 3: Select Search Result
+======================================================================
+Analyzing screenshot: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo2_vision/screenshots/20251222_194155/vision_scene3_search_results.png
+  Token usage: 1399 (prompt: 1387, completion: 12)
+
+❌ ERROR: Vision LLM returned empty response.
+Finish reason: stop
+Refusal: I'm sorry, but I can't assist with that request.
+
+Full response: ChatCompletion(id='chatcmpl-CpnZikWz4iX0nzK5YG4SMd9fe92BJ', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content=None, refusal="I'm sorry, but I can't assist with that request.", role='assistant', annotations=[], audio=None, function_call=None, tool_calls=None))], created=1766461330, model='gpt-4o-2024-08-06', object='chat.completion', service_tier='default', system_fingerprint='fp_a0e9480a2f', usage=CompletionUsage(completion_tokens=12, prompt_tokens=1387, total_tokens=1399, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0)))
+
+❌ ERROR: Vision LLM could not find search result. Response: {'error': "Vision LLM returned empty response.\nFinish reason: stop\nRefusal: I'm sorry, but I can't assist with that request.\n", 'coordinates': None, 'reasoning': 'LLM returned empty response'}
+LLM Error: Vision LLM returned empty response.
+Finish reason: stop
+Refusal: I'm sorry, but I can't assist with that request.
+
+Traceback (most recent call last):
+  File "/Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo2_vision/main.py", line 220, in <module>
+    main()
+  File "/Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo2_vision/main.py", line 161, in main
+    raise Exception("Could not find search result coordinates")
+Exception: Could not find search result coordinates
+
+======================================================================
+Demo 2 finished. Check demo2_vision/screenshots/ for results.
+======================================================================

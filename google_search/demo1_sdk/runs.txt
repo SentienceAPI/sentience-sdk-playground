@@ -1,0 +1,397 @@
+======================================================================
+Running Demo 1: SDK + LLM - Google Search
+======================================================================
+Screenshots will be saved to: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/screenshots/20251222_193256
+
+======================================================================
+DEMO 1: Sentience SDK + LLM - Google Search
+======================================================================
+
+[Scene 1] Navigating to Google.com...
+Screenshot saved: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/screenshots/20251222_193256/sdk_scene1_google_home.png
+Getting snapshot from API...
+API returned 49 elements
+Visualizing elements with bounding boxes...
+  Saved annotated screenshot: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/screenshots/20251222_193256/sdk_scene1_google_home_annotated.png
+Applying Scene 1 element filtering...
+  Element filtering: 49 -> 29 elements (excluded roles: ['img', 'button', 'link'])
+
+======================================================================
+Scene: Scene 1: Find Search Box
+======================================================================
+  Token usage: 4363 (prompt: 4257, completion: 106)
+
+LLM Decision:
+{
+  "reasoning": "Selected based on role='combobox', in_viewport=true, is_occluded=false, and bbox.y < 400, indicating it's in the top area and likely the search input field.",
+  "element_id": 98,
+  "bbox": {
+    "x": 667.0,
+    "y": 377.0,
+    "width": 441.859375,
+    "height": 50.0
+  },
+  "action": "click"
+}
+
+Clicking on search box at bbox: {'x': 667.0, 'y': 377.0, 'width': 441.859375, 'height': 50.0}
+
+[Scene 2] Typing search query: 'visiting japan'
+Screenshot saved: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/screenshots/20251222_193256/sdk_scene2_typing.png
+Pressing Enter...
+
+[Scene 3] Analyzing search results...
+Screenshot saved: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/screenshots/20251222_193256/sdk_scene3_search_results.png
+Getting snapshot from API...
+API returned 50 elements
+Visualizing elements with bounding boxes...
+  Saved annotated screenshot: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/screenshots/20251222_193256/sdk_scene3_search_results_annotated.png
+Applying Scene 3 element filtering...
+  Element filtering: 50 -> 26 elements (excluded roles: ['searchbox', 'button', 'img'])
+Filtering out ads by text content...
+  Ad filtering: 26 -> 23 elements
+
+======================================================================
+Scene: Scene 3: Select Search Result
+======================================================================
+  Token usage: 4270 (prompt: 4135, completion: 135)
+
+LLM Decision:
+{
+  "reasoning": "Selected the first clearly visible, relevant result which is an official tourism guide for Japan by the Japan National Tourism Organization. This choice is based on the criteria of being in the viewport, not occluded, clickable, and a high-quality source.",
+  "result_title": "JNTO - Official Tourism Guide for Japan Travel",
+  "element_id": 1700,
+  "bbox": {
+    "x": 230.0,
+    "y": 648.5625,
+    "width": 413.3125,
+    "height": 44.4375
+  },
+  "action": "click"
+}
+
+Clicking on result: JNTO - Official Tourism Guide for Japan Travel
+Bbox: {'x': 230.0, 'y': 648.5625, 'width': 413.3125, 'height': 44.4375}
+Current URL: https://www.google.com/search?q=visiting+japan&sca_esv=c54719d661e4c3a9&source=hp&ei=aw1KaZKoA8mZ0PEPydCMmQM&iflsig=AOw8s4IAAAAAaUobe_9lXI37P9dOKQNFyBN6NIUa7XBb&ved=0ahUKEwjSifuZ49KRAxXJDDQIHUkoIzMQ4dUDCBY&uact=5&oq=visiting+japan&gs_lp=Egdnd3Mtd2l6Ig52aXNpdGluZyBqYXBhbjIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIhhhQgQhY3xJwAXgAkAEAmAG1AaAB9AiqAQQxMi4yuAEDyAEA-AEBmAIPoAKyCagCCsICChAAGAMY6gIYjwHCAgoQLhgDGOoCGI8BwgIOEC4YgAQYsQMYgwEYigXCAgsQABiABBixAxiDAcICERAuGIAEGLEDGNEDGIMBGMcBwgIOEC4YgAQYsQMY0QMYxwHCAgsQLhiABBixAxiDAcICCBAAGIAEGLEDwgIIEC4YgAQYsQPCAgQQABgDwgIOEAAYgAQYsQMYgwEYigXCAgsQLhiABBjHARivAcICDhAuGIAEGMcBGI4FGK8BwgIOEAAYgAQYsQMYgwEYyQPCAgsQABiABBiSAxiKBcICERAuGIAEGLEDGNEDGMcBGMkDwgIIEAAYgAQYkgOYAwXxBYLk4ULREuBRkgcEMTMuMqAHmdEBsgcEMTIuMrgHrQnCBwUwLjYuOcgHK4AIAA&sclient=gws-wiz&sei=dQ1KaaT_Kdmn0PEP45i-2Ao
+After click URL: https://www.japan.travel/en/us/
+✅ Successfully navigated to result page
+
+[Scene 4] Capturing final page...
+Screenshot saved: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/screenshots/20251222_193256/sdk_scene4_result_page.png
+
+✅ SUCCESS!
+Final URL: https://www.japan.travel/en/us/
+
+======================================================================
+Token Usage Summary: Google Search Demo 1: SDK + LLM
+======================================================================
+Scene 1: Find Search Box                     4363 tokens
+Scene 3: Select Search Result                4270 tokens
+======================================================================
+Total Prompt Tokens:                         8392
+Total Completion Tokens:                      241
+TOTAL TOKENS:                                8633
+Average per Scene:                         4316.5
+======================================================================
+
+Token summary saved to: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/screenshots/20251222_193256/token_summary.json
+
+======================================================================
+DEMO 1 COMPLETE!
+======================================================================
+Total tokens used: 8633
+Screenshots saved to: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/screenshots/20251222_193256
+
+======================================================================
+GENERATING DEMO VIDEO...
+======================================================================
+
+Creating video from screenshots in /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/screenshots/20251222_193256...
+Found 4 screenshots
+  Processing sdk_scene1_google_home.png...
+    Adding token overlay (4363 tokens)...
+  Processing sdk_scene2_typing.png...
+  Processing sdk_scene3_search_results.png...
+    Adding token overlay (4270 tokens)...
+  Processing sdk_scene4_result_page.png...
+  Creating summary screen...
+  Concatenating clips...
+  Writing video to /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/video/demo1_google_search_20251222_193256.mp4...
+
+✅ Video created: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/video/demo1_google_search_20251222_193256.mp4
+   Total duration: 19.0s
+   Scenes: 5
+
+✅ Video generated successfully: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/video/demo1_google_search_20251222_193256.mp4
+
+======================================================================
+Demo 1 finished. Check demo1_sdk/screenshots/ for results.
+======================================================================
+
+
+
+
+rcholic@Mac-mini-old:~/Desktop/Code/Sentience/sdk-python/playground/google_search|main⚡ ⇒  ./run_demo1.sh
+======================================================================
+Running Demo 1: SDK + LLM - Google Search
+======================================================================
+Screenshots will be saved to: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/screenshots/20251222_193935
+
+======================================================================
+DEMO 1: Sentience SDK + LLM - Google Search
+======================================================================
+
+[Scene 1] Navigating to Google.com...
+Screenshot saved: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/screenshots/20251222_193935/sdk_scene1_google_home.png
+Getting snapshot from API...
+API returned 49 elements
+Visualizing elements with bounding boxes...
+  Saved annotated screenshot: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/screenshots/20251222_193935/sdk_scene1_google_home_annotated.png
+Applying Scene 1 element filtering...
+  Element filtering: 49 -> 29 elements (excluded roles: ['img', 'button', 'link'])
+
+======================================================================
+Scene: Scene 1: Find Search Box
+======================================================================
+  Token usage: 4353 (prompt: 4254, completion: 99)
+
+LLM Decision:
+{
+  "reasoning": "Selected the element with role='combobox', in the top area of the page, in viewport and not occluded, likely to be the search input field.",
+  "element_id": 98,
+  "bbox": {
+    "x": 667.0,
+    "y": 377.0,
+    "width": 442.0625,
+    "height": 50.0
+  },
+  "action": "click"
+}
+
+Clicking on search box at bbox: {'x': 667.0, 'y': 377.0, 'width': 442.0625, 'height': 50.0}
+
+[Scene 2] Typing search query: 'visiting japan'
+Screenshot saved: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/screenshots/20251222_193935/sdk_scene2_typing.png
+Pressing Enter...
+
+[Scene 3] Analyzing search results...
+Screenshot saved: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/screenshots/20251222_193935/sdk_scene3_search_results.png
+Getting snapshot from API...
+API returned 50 elements
+Visualizing elements with bounding boxes...
+  Saved annotated screenshot: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/screenshots/20251222_193935/sdk_scene3_search_results_annotated.png
+Applying Scene 3 element filtering...
+  Element filtering: 50 -> 29 elements (excluded roles: ['searchbox', 'button', 'img'])
+Filtering out ads by text content...
+  Ad filtering: 29 -> 27 elements
+
+======================================================================
+Scene: Scene 3: Select Search Result
+======================================================================
+  Token usage: 4943 (prompt: 4833, completion: 110)
+
+LLM Decision:
+{
+  "reasoning": "Selected the first clearly visible, relevant result that is an official tourism guide for Japan, indicating high-quality and trustworthy information for visitors.",
+  "result_title": "JNTO - Official Tourism Guide for Japan Travel",
+  "element_id": 2099,
+  "bbox": {
+    "x": 902.0,
+    "y": 255.0,
+    "width": 428.0,
+    "height": 145.0
+  },
+  "action": "click"
+}
+
+Clicking on result: JNTO - Official Tourism Guide for Japan Travel
+Bbox: {'x': 902.0, 'y': 255.0, 'width': 428.0, 'height': 145.0}
+Current URL: https://www.google.com/search?q=visiting+japan&sca_esv=c54719d661e4c3a9&source=hp&ei=-g5KaZHCCpmL0PEPo5CuuAQ&iflsig=AOw8s4IAAAAAaUodCjP0wkvK32ETmc9R2bT8V8gdvBJH&ved=0ahUKEwiRp6PY5NKRAxWZBTQIHSOIC0cQ4dUDCBY&uact=5&oq=visiting+japan&gs_lp=Egdnd3Mtd2l6GgIYAyIOdmlzaXRpbmcgamFwYW4yBRAAGIAEMggQABiABBiLAzIIEAAYgAQYiwMyCBAAGIAEGIsDMggQABiABBiLAzIIEAAYgAQYiwMyCBAAGIAEGIsDMggQABiABBiLAzIIEAAYgAQYiwMyCBAAGIAEGIsDSPYXUIIIWN8ScAF4AJABAJgBUKAB5gaqAQIxNLgBA8gBAPgBAZgCD6ACoweoAgrCAgoQABgDGI8BGOoCwgIOEC4YgAQYigUYsQMYgwHCAgsQABiABBixAxiDAcICERAuGIAEGLEDGIMBGMcBGNEDwgIOEC4YgAQYsQMYxwEY0QPCAgsQLhiABBixAxiDAcICCBAAGIAEGLEDwgIIEC4YgAQYsQPCAhcQLhiABBiKBRiNBhixAxiDARjHARjRA8ICBBAAGAPCAhEQABiABBiKBRiNBhixAxiDAcICDhAAGIAEGIoFGI0GGLEDwgIOEAAYgAQYigUYsQMYgwHCAg4QLhiABBjHARivARiOBcICCxAuGIAEGMcBGK8BwgIOEAAYgAQYsQMYgwEYyQPCAgsQABiABBiKBRiSA8ICERAuGIAEGLEDGMkDGMcBGNEDwgIIEAAYgAQYkgPCAgsQLhivARjHARiABMICFBAuGIAEGMcBGK8BGIsDGKgDGKYDmAMFkgcCMTWgB-fKAbIHAjE0uAeeB8IHBTAuOC43yAcsgAgB&sclient=gws-wiz&sei=BQ9Kae75GrWe0PEPyvev4A8
+After click URL: https://www.japan.travel/en/us/#:~:text=Popular%20Places,Culture%20in%20Japan
+✅ Successfully navigated to result page
+
+[Scene 4] Capturing final page...
+Screenshot saved: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/screenshots/20251222_193935/sdk_scene4_result_page.png
+
+✅ SUCCESS!
+Final URL: https://www.japan.travel/en/us/#:~:text=Popular%20Places,Culture%20in%20Japan
+
+======================================================================
+Token Usage Summary: Google Search Demo 1: SDK + LLM
+======================================================================
+Scene 1: Find Search Box                     4353 tokens
+Scene 3: Select Search Result                4943 tokens
+======================================================================
+Total Prompt Tokens:                         9087
+Total Completion Tokens:                      209
+TOTAL TOKENS:                                9296
+Average per Scene:                         4648.0
+======================================================================
+
+Token summary saved to: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/screenshots/20251222_193935/token_summary.json
+
+======================================================================
+DEMO 1 COMPLETE!
+======================================================================
+Total tokens used: 9296
+Screenshots saved to: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/screenshots/20251222_193935
+
+======================================================================
+GENERATING DEMO VIDEO...
+======================================================================
+
+Creating video from screenshots in /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/screenshots/20251222_193935...
+Found 4 screenshots
+  Processing sdk_scene1_google_home.png...
+    Adding token overlay (4353 tokens)...
+  Processing sdk_scene2_typing.png...
+  Processing sdk_scene3_search_results.png...
+    Adding token overlay (4943 tokens)...
+  Processing sdk_scene4_result_page.png...
+  Creating summary screen...
+  Concatenating clips...
+  Writing video to /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/video/demo1_google_search_20251222_193935.mp4...
+
+✅ Video created: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/video/demo1_google_search_20251222_193935.mp4
+   Total duration: 19.0s
+   Scenes: 5
+
+✅ Video generated successfully: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/video/demo1_google_search_20251222_193935.mp4
+
+======================================================================
+Demo 1 finished. Check demo1_sdk/screenshots/ for results.
+======================================================================
+
+
+
+
+
+======================================================================
+Running Demo 1: SDK + LLM - Google Search
+======================================================================
+Screenshots will be saved to: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/screenshots/20251222_194454
+
+======================================================================
+DEMO 1: Sentience SDK + LLM - Google Search
+======================================================================
+
+[Scene 1] Navigating to Google.com...
+Screenshot saved: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/screenshots/20251222_194454/sdk_scene1_google_home.png
+Getting snapshot from API...
+API returned 49 elements
+Visualizing elements with bounding boxes...
+  Saved annotated screenshot: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/screenshots/20251222_194454/sdk_scene1_google_home_annotated.png
+Applying Scene 1 element filtering...
+  Element filtering: 49 -> 1 elements (excluded roles: ['img', 'image', 'button', 'link', 'span', 'div', 'svg', 'path', 'g', 'rect', 'circle'])
+
+======================================================================
+Scene: Scene 1: Find Search Box
+======================================================================
+  Token usage: 555 (prompt: 452, completion: 103)
+
+LLM Decision:
+{
+  "reasoning": "Selected based on role='combobox', in_viewport=true, is_occluded=false, and bbox.y<400, meeting all criteria for the search input field on Google homepage.",
+  "element_id": 98,
+  "bbox": {
+    "x": 667.0,
+    "y": 377.0,
+    "width": 441.859375,
+    "height": 50.0
+  },
+  "action": "click"
+}
+
+Clicking on search box at bbox: {'x': 667.0, 'y': 377.0, 'width': 441.859375, 'height': 50.0}
+
+[Scene 2] Typing search query: 'visiting japan'
+Screenshot saved: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/screenshots/20251222_194454/sdk_scene2_typing.png
+Pressing Enter...
+
+[Scene 3] Analyzing search results...
+Screenshot saved: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/screenshots/20251222_194454/sdk_scene3_search_results.png
+Getting snapshot from API...
+API returned 50 elements
+Visualizing elements with bounding boxes...
+  Saved annotated screenshot: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/screenshots/20251222_194454/sdk_scene3_search_results_annotated.png
+Applying Scene 3 element filtering...
+  Element filtering: 50 -> 10 elements (excluded roles: ['searchbox', 'combobox', 'button', 'img', 'image', 'span', 'div', 'svg', 'path', 'g', 'rect', 'circle', 'ul', 'li'])
+Filtering out ads by text content...
+  Ad filtering: 10 -> 9 elements
+
+======================================================================
+Scene: Scene 3: Select Search Result
+======================================================================
+  Token usage: 2294 (prompt: 2184, completion: 110)
+
+LLM Decision:
+{
+  "reasoning": "Selected the first clearly visible, relevant result which is an official tourism guide for Japan, indicating high-quality and trustworthy information for visitors.",
+  "result_title": "JNTO - Official Tourism Guide for Japan Travel",
+  "element_id": 2099,
+  "bbox": {
+    "x": 902.0,
+    "y": 256.0,
+    "width": 428.0,
+    "height": 145.0
+  },
+  "action": "click"
+}
+
+Clicking on result: JNTO - Official Tourism Guide for Japan Travel
+Bbox: {'x': 902.0, 'y': 256.0, 'width': 428.0, 'height': 145.0}
+Current URL: https://www.google.com/search?q=visiting+japan&sca_esv=0857a64d5a687a19&source=hp&ei=OBBKaZ2MOIvx0PEPxa7DgQg&iflsig=AOw8s4IAAAAAaUoeSOoX7wmL4Go8M229qAcAPoEIa064&ved=0ahUKEwidiKLw5dKRAxWLODQIHUXXMIAQ4dUDCBY&uact=5&oq=visiting+japan&gs_lp=Egdnd3Mtd2l6GgIYAyIOdmlzaXRpbmcgamFwYW4yBRAAGIAEMggQABiABBiLAzIIEAAYgAQYiwMyCBAAGIAEGIsDMggQABiABBiLAzIIEAAYgAQYiwMyCBAAGIAEGIsDMggQABiABBiLAzIIEAAYgAQYiwMyCBAAGIAEGIsDSPkXUIIIWNcScAF4AJABAJgBZqAB0weqAQQxMy4xuAEDyAEA-AEBmAIPoAKSCKgCCsICChAAGAMY6gIYjwHCAg4QLhiABBixAxiDARiKBcICCxAAGIAEGLEDGIMBwgIREC4YgAQYsQMY0QMYgwEYxwHCAg4QLhiABBixAxjRAxjHAcICCxAuGIAEGLEDGIMBwgIIEAAYgAQYsQPCAggQLhiABBixA8ICBBAAGAPCAg4QABiABBixAxiDARiKBcICDhAuGIAEGMcBGI4FGK8BwgILEC4YgAQYxwEYrwHCAg4QABiABBixAxiDARjJA8ICCxAAGIAEGJIDGIoFwgIREC4YgAQYsQMY0QMYxwEYyQPCAggQABiABBiSA8ICFBAuGIAEGKYDGMcBGKgDGIsDGK8BmAME8QUYC5D6TMMYkpIHBDE0LjGgB8LWAbIHBDEzLjG4B40IwgcFMS42LjjIByuACAA&sclient=gws-wiz&sei=QhBKacrTIJOj0PEPto3f0As
+After click URL: https://www.japan.travel/en/us/#:~:text=Popular%20Places,Culture%20in%20Japan
+✅ Successfully navigated to result page
+
+[Scene 4] Capturing final page...
+Screenshot saved: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/screenshots/20251222_194454/sdk_scene4_result_page.png
+
+✅ SUCCESS!
+Final URL: https://www.japan.travel/en/us/#:~:text=Popular%20Places,Culture%20in%20Japan
+
+======================================================================
+Token Usage Summary: Google Search Demo 1: SDK + LLM
+======================================================================
+Scene 1: Find Search Box                      555 tokens
+Scene 3: Select Search Result                2294 tokens
+======================================================================
+Total Prompt Tokens:                         2636
+Total Completion Tokens:                      213
+TOTAL TOKENS:                                2849
+Average per Scene:                         1424.5
+======================================================================
+
+Token summary saved to: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/screenshots/20251222_194454/token_summary.json
+
+======================================================================
+DEMO 1 COMPLETE!
+======================================================================
+Total tokens used: 2849
+Screenshots saved to: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/screenshots/20251222_194454
+
+======================================================================
+GENERATING DEMO VIDEO...
+======================================================================
+
+Creating video from screenshots in /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/screenshots/20251222_194454...
+Found 4 screenshots
+  Processing sdk_scene1_google_home.png...
+    Adding token overlay (555 tokens)...
+  Processing sdk_scene2_typing.png...
+  Processing sdk_scene3_search_results.png...
+    Adding token overlay (2294 tokens)...
+  Processing sdk_scene4_result_page.png...
+  Creating summary screen...
+  Concatenating clips...
+  Writing video to /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/video/demo1_google_search_20251222_194454.mp4...
+
+✅ Video created: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/video/demo1_google_search_20251222_194454.mp4
+   Total duration: 19.0s
+   Scenes: 5
+
+✅ Video generated successfully: /Users/rcholic/Desktop/Code/Sentience/sdk-python/playground/google_search/demo1_sdk/video/demo1_google_search_20251222_194454.mp4
+
+======================================================================
+Demo 1 finished. Check demo1_sdk/screenshots/ for results.
+======================================================================

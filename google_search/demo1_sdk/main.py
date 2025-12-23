@@ -98,9 +98,12 @@ def main():
             print("Visualizing elements with bounding boxes...")
             visualize_api_elements(screenshot_path, snapshot_data)
 
-        # Scene 1 optimization: Filter out img, button, link - we only need search input
+        # Scene 1 optimization: Filter out everything except search-related inputs
         print("Applying Scene 1 element filtering...")
-        filtered_data = filter_elements(snapshot_data, exclude_roles=["img", "button", "link"])
+        filtered_data = filter_elements(snapshot_data, exclude_roles=[
+            "img", "image", "button", "link", "span", "div",
+            "svg", "path", "g", "rect", "circle"
+        ])
 
         # Ask LLM to find search bar
         prompt = """You are an AI agent controlling a web browser.
@@ -186,9 +189,13 @@ Response Format:
             print("Visualizing elements with bounding boxes...")
             visualize_api_elements(screenshot_path, snapshot_data)
 
-        # Scene 3 optimization: Filter out searchbox, button, img - we only need result links
+        # Scene 3 optimization: Keep only links and headings
         print("Applying Scene 3 element filtering...")
-        filtered_data = filter_elements(snapshot_data, exclude_roles=["searchbox", "button", "img"])
+        filtered_data = filter_elements(snapshot_data, exclude_roles=[
+            "searchbox", "combobox", "button", "img", "image",
+            "span", "div", "svg", "path", "g", "rect", "circle",
+            "ul", "li"
+        ])
 
         # Additional filtering: remove ads by text content
         print("Filtering out ads by text content...")
